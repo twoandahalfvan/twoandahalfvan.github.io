@@ -3,9 +3,6 @@ OUTDIR=.
 LOCAL_GHOST="http://localhost:2368"
 GITHUB_PAGES_URL="http://twoandahalfvan.github.io"
 
-echo "REMOVING PREVIOUS CONTENT"
-rm -rf `ls | grep -v *.sh | grep -v source | grep -v README.md`
-
 echo "STORING $LOCAL_GHOST content in $OUTDIR folder"
 wget -r -nH -P $OUTDIR -E -T 2 -np -k $LOCAL_GHOST/ && \
 
