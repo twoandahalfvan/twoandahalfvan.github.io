@@ -14,5 +14,5 @@ grep -r "$LOCAL_GHOST" -l --null . --exclude=*.sh --exclude-dir=source | xargs -
 
 echo "UPDATING GITHUB PAGES"
 git add . && \
-git ci -m 'Update website' &&  \
+git commit -m 'Update website' &&  \
 git push
