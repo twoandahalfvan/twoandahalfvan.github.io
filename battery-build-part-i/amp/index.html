@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Battery Build - Part I</title>
+    <title>DIY Lithium Battery</title>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -14,18 +14,18 @@
     
     <meta property="og:site_name" content="Two and a half van" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="Battery Build - Part I" />
-    <meta property="og:description" content="Planning the battery buildSketchup 3d modellayout descriptionchoice of woodscrews" />
+    <meta property="og:title" content="DIY Lithium Battery" />
+    <meta property="og:description" content="Building your own 12V Lithium battery can be a daunting task if you have never done it before. In this post we will describe how we planned our DIY battery build.WARNING Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity. If you" />
     <meta property="og:url" content="http://twoandahalfvan.github.io/battery-build-part-i/" />
     <meta property="article:published_time" content="2019-01-15T08:20:42.000Z" />
-    <meta property="article:modified_time" content="2019-01-15T08:22:30.000Z" />
+    <meta property="article:modified_time" content="2019-01-15T15:53:20.000Z" />
     <meta property="article:tag" content="Battery" />
     <meta property="article:tag" content="Van Build" />
     
     <meta property="article:publisher" content="https://www.facebook.com/twoandahalfvan" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Battery Build - Part I" />
-    <meta name="twitter:description" content="Planning the battery buildSketchup 3d modellayout descriptionchoice of woodscrews" />
+    <meta name="twitter:title" content="DIY Lithium Battery" />
+    <meta name="twitter:description" content="Building your own 12V Lithium battery can be a daunting task if you have never done it before. In this post we will describe how we planned our DIY battery build.WARNING Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity. If you" />
     <meta name="twitter:url" content="http://twoandahalfvan.github.io/battery-build-part-i/" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Dominik" />
@@ -47,12 +47,12 @@
         "url": "http://twoandahalfvan.github.io/author/dominik/",
         "sameAs": []
     },
-    "headline": "Battery Build - Part I",
+    "headline": "DIY Lithium Battery",
     "url": "http://twoandahalfvan.github.io/battery-build-part-i/",
     "datePublished": "2019-01-15T08:20:42.000Z",
-    "dateModified": "2019-01-15T08:22:30.000Z",
+    "dateModified": "2019-01-15T15:53:20.000Z",
     "keywords": "Battery, Van Build",
-    "description": "Planning the battery buildSketchup 3d modellayout descriptionchoice of woodscrews",
+    "description": "Building your own 12V Lithium battery can be a daunting task if you have never done it before. In this post we will describe how we planned our DIY battery build.WARNING Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity. If you",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://twoandahalfvan.github.io/"
@@ -84,7 +84,7 @@
         <article class="post">
 
             <header class="post-header">
-                <h1 class="post-title">Battery Build - Part I</h1>
+                <h1 class="post-title">DIY Lithium Battery</h1>
                 <section class="post-meta">
                     <p class="author">by <a href="../../author/dominik/index.html">Dominik</a></p>
                     <time class="post-date" datetime="2019-01-15">2019-01-15</time>
@@ -92,7 +92,57 @@
             </header>
             <section class="post-content">
 
-                <p>Planning the battery build</p><ul><li>Sketchup 3d model</li><li>layout description</li><li>choice of wood</li><li>screws</li></ul>
+                <p>Building your own 12V Lithium battery can be a daunting task if you have never done it before. In this post we will describe how we planned our DIY battery build.</p><hr></hr><h2 id="warning">WARNING</h2>
+<p>Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity.<br />
+If you are unsure if you meet these requirements, please buy a ready-to-use battery or consult a qualified electrician.</p>
+<hr></hr><p>Before you start planning your Lithium battery build, you need to know some basic terminology:</p>
+<ul>
+<li>BMS - Battery Management System</li>
+<li>SoC - State of Charge</li>
+<li>OVP - Over Voltage Protection</li>
+<li>UVP - Under Voltage Protection</li>
+<li>LVP - Low Voltage Protection</li>
+<li>Cells</li>
+<li>Balancers</li>
+<li>Relays</li>
+<li>Hystersis</li>
+</ul>
+<p>Lets start with the BMS. The task of a BMS is to protect a battery and to make sure that it operates within the specifications of the battery manufacturer. While you can operate some kind of batteries without a BMS, you should never operate a Lithium battery without a BMS. A BMS can also contain some additional features, such as a SoC detection ("how much juice is left?"), but its core function is to protect the battery from unwanted conditions, such as OVP and UVP and unsupported temperatures.</p>
+<p>Lithium batteries operate within a voltage range. A Lithium battery with a nominal voltage of 12V has an actual voltage of 14,4V when fully charged and about 11,2V when it is empty. Now, these values are not static or fixed, some people like to charge their Lithium batteries up to 14,6V. This is often a topic of debate, because Lithium batteries tend to have a longer lifespan (measured in charge cycles) when they are not constantly fully charged or fully emptied. In fact, Lithium batteries have a significantly longer life expectation when they are operated around the 50% SoC.</p>
+<p>Most 12V appliances can operate within the voltage range that a 12V nominal voltage battery provies. However, some 12V appliances may not work correctly when the system voltage is too low or too high, in which case you could add DC-DC converter, which will regulate the system voltage to constant 12V at the expense of a certain efficiency rate (such as 96%).</p>
+<p>When you buy a charger for your battery, you must ensure that it is compatible with your battery in terms of the type of chemistry and system voltage. You should never use a lead battery charger on a lithium battery and vice versa, because these chargers have different cutoff voltages and charging methods or algorithms. A charging method or algorithm determines how a battery is charged over time.</p>
+<p>In order to protect the Lithium battery cells from being over charged, we need Over Voltage Protection (OVP). Similarly, we need Under Voltage Protection (UVP), sometimes also referred to as Low Voltage Protection (LVP) to protect the cells from being discharged beyond it's specifications. If you charge or discharge your battery without OVP and UVP, you can permanently damage the cells, which may cause them to be unusable.</p>
+<p>Now, every battery is made up of individual cells that are usually wired together in series. In the case of a 12V LiFePo4 battery, each of the four cells may have a voltage of 3,6V when the complete battery is fully charged (4 cells * 3,6V = 14,4V). However, in reality, these cells are likely not to have the same voltage. They are more likely to diverge slightly, as their chemical properties may differ slightly and change over time. Here is an example of what your cells voltage might look like if it is 100% charged.</p>
+<table>
+<thead>
+<tr>
+<th>Cell</th>
+<th>Voltage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>3,59</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3,60</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3,61</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3,60</td>
+</tr>
+</tbody>
+</table>
+<p>Because every cell has slightly different chemical characteristics, some cells may be fully charged before other cells. In order to still reach the 14,4V, the charger keeps charging. If the fully charged cell continues to charge, it would be overcharged and thus damaged. It is the task of so called cell balancers to make sure that individual cells are charged equally. These balancers are typically mounted directly on top of the individual cell  terminals. Balancing can be done by actively routing the charging current to the cells that needs it ("active balancing") or by simply converting the superfluous charging current to heat by means of a simple resistor (which may require a heat dissipation device, such as a fan or heat sink).</p>
+<p>Cell balancers may also measure the voltage of the cell they are mounted to and signal an over voltage or under voltage to an upstream device called "relay". You can think of a relay as a remotely controlled switch, that switches an electrical connection based on the information it gets. For instance, if one cell balancer singals an under voltage situation to the relay input of a 230V inverter, the inverter may switch it's electrical connection to the battery off. Relays exist in various form factors.</p>
+<p>Last but not least, a hysteresis function helps to detect temporary low or high voltage situations. For instance, a coffee machine has a very high electrical demand when it brews, causing a high dip in system voltage for a very short amount of time. In it's simplest form, a hysteresis function requires a certain amount of time to pass before it signals under voltage. Some systems have multiple OVP or LVP functions, allowing for instance a voltage level of 11,2V to exist for 30seconds, but cutting off directly at 11V.</p>
+
 
             </section>
 

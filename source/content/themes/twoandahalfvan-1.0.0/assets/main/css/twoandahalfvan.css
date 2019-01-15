@@ -1,3 +1,7 @@
+* {
+  font-family: 'Ubuntu', sans-serif !important;
+}
+
 #wrapper {
   overflow: visible;
 }
@@ -7,4 +11,7 @@
   top: 0;
   z-index: 3;
   background: #5c88b3;
+}
+p {
+  text-align: start;
 }
