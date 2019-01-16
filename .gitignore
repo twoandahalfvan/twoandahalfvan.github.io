@@ -154,5 +154,4 @@ typings/
 
 # End of https://www.gitignore.io/api/linux,macos,windows,node
 
-source/.ghost-cli
 source/.ghostpid
