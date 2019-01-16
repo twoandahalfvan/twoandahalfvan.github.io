@@ -36,7 +36,12 @@
     "publisher": {
         "@type": "Organization",
         "name": "Two and a half van",
-        "logo": "http://twoandahalfvan.github.io/content/images/2019/01/Batterie-Aufbau--1-.jpg"
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://twoandahalfvan.github.io/favicon.ico",
+            "width": 60,
+            "height": 60
+        }
     },
     "url": "http://twoandahalfvan.github.io/tag/van-build/",
     "name": "Van Build",
@@ -61,14 +66,15 @@ ghost.init({
 </head>
 <body class="is-preload tag-template tag-van-build">
 
-    <div id="wrapper" >
+    <div id="bg-img">
+      <div id="wrapper"}>
 
 
-        <header id="header">
-                <a href="../../index.html" class="logo image"><img src="http://twoandahalfvan.github.io/content/images/2019/01/Batterie-Aufbau--1-.jpg" alt="Two and a half van" /></a>
-        </header>
+          <header id="header">
+                  <a href="../../index.html" class="logo">Two and a half van</a>
+          </header>
 
-            <nav id="nav">
+              <nav id="nav">
     <ul class="links">
         <li class="nav-home "><a href="../../index.html">Home</a></li>
         <li class="nav-van-build active"><a href="index.html">Van Build</a></li>
@@ -83,7 +89,8 @@ ghost.init({
     </ul>
 </nav>
 
-        
+
+          
 <main id="main">
 
     <header class="tag-header">
@@ -98,7 +105,7 @@ ghost.init({
                 <span class="date">Jan 15, 2019</span>
                 <h2><a href="../../battery-build-part-i/index.html">DIY Lithium Battery</a></h2>
             </header>
-            <p>Building your own 12V Lithium battery can be a daunting task if you have never done it before. In this post we will describe how we planned our DIY battery build.WARNING Building</p>
+            <p>Everything you need to know before building your own Lithium battery</p>
             <ul class="actions special">
                 <li><a href="../../battery-build-part-i/index.html" class="button">Full Story</a></li>
             </ul>
@@ -126,26 +133,27 @@ ghost.init({
 
     </main>
 
-        <div id="copyright">
-            <ul>
-                <li>&copy; Two and a half van</li>
-                <li><a href="../../imprint.html">Imprint</a></li>
-                <li>Published with <a href="https://ghost.org">Ghost</a></li>
-            </ul>
-        </div>
+          <div id="copyright">
+              <ul>
+                  <li>&copy; Two and a half van</li>
+                  <li><a href="../../imprint.html">Imprint</a></li>
+                  <li>Published with <a href="https://ghost.org">Ghost</a></li>
+              </ul>
+          </div>
+
+      </div>
+
+      <script src="../../assets/main/js/jquery.min.js%3Fv=4a8715b604"></script>
+      <script src="../../assets/main/js/jquery.scrollex.min.js%3Fv=4a8715b604"></script>
+      <script src="../../assets/main/js/jquery.scrolly.min.js%3Fv=4a8715b604"></script>
+      <script src="../../assets/main/js/browser.min.js%3Fv=4a8715b604"></script>
+      <script src="../../assets/main/js/breakpoints.min.js%3Fv=4a8715b604"></script>
+      <script src="../../assets/main/js/util.js%3Fv=4a8715b604"></script>
+      <script src="../../assets/main/js/main.js%3Fv=4a8715b604"></script>
+
+      
 
     </div>
-
-
-    <script src="../../assets/main/js/jquery.min.js%3Fv=4a8715b604"></script>
-    <script src="../../assets/main/js/jquery.scrollex.min.js%3Fv=4a8715b604"></script>
-    <script src="../../assets/main/js/jquery.scrolly.min.js%3Fv=4a8715b604"></script>
-    <script src="../../assets/main/js/browser.min.js%3Fv=4a8715b604"></script>
-    <script src="../../assets/main/js/breakpoints.min.js%3Fv=4a8715b604"></script>
-    <script src="../../assets/main/js/util.js%3Fv=4a8715b604"></script>
-    <script src="../../assets/main/js/main.js%3Fv=4a8715b604"></script>
-
-    
 
 </body>
 </html>
