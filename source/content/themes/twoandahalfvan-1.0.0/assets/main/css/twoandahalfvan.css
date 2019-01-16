@@ -1,6 +1,12 @@
 * {
   font-family: 'Ubuntu', sans-serif !important;
 }
+body {
+  background-color: #fff;
+}
+#wrapper {
+  min-height: 100vh;
+}
 #home-img {
   position: absolute;
   width: 100%;
