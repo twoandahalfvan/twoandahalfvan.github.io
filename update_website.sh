@@ -4,7 +4,7 @@ LOCAL_GHOST="http://localhost:2368"
 GITHUB_PAGES_URL="http://twoandahalfvan.github.io"
 
 GHOST_COUNT=`ps -ef |grep ghost | grep -v grep | wc -l | xargs`
-if [ $GHOST_COUNT eq 0 ] 
+if [ $GHOST_COUNT -eq 0 ] 
 then
 	echo "GHOST is not running"
         exit -1
