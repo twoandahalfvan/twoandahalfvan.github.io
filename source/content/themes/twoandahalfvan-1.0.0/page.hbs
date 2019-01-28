@@ -1,24 +1,29 @@
 {{!< default}}
 
-{{#post}}
-{{!-- Everything inside the #post tags pulls data from the page --}}
+{{!-- By definition, a featured page represents a category of tags --}}
+{{#if @root.post.featured}}
+  {{> category}}
+{{else}}
+  {{#post}}
+  {{!-- Everything inside the #post tags pulls data from the page --}}
 
-<main id="main">
-    <section class="post">
+  <main id="main">
+      <section>
 
-        <header class="major">
-            <h1>{{title}}</h1>
-        </header>
+          <header class="major">
+              <h1>{{title}}</h1>
+          </header>
 
-        {{#if feature_image}}
-        <div class="image main"><img src="{{img_url feature_image}}" alt="{{title}}" /></div>
-        {{/if}}
+          {{#if feature_image}}
+          <div class="image main"><img src="{{img_url feature_image}}" alt="{{title}}" /></div>
+          {{/if}}
 
-        <div class="content">
-            {{content}}
-        </div>
+          <div class="content">
+              {{content}}
+          </div>
 
-    </section>
-</main>
+      </section>
+  </main>
 
-{{/post}}
+  {{/post}}
+{{/if}}

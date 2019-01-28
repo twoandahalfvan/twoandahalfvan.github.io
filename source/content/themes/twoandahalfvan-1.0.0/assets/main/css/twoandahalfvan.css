@@ -46,3 +46,20 @@ p {
   text-align: center;
   max-width: 100%;
 }
+
+#main>.posts>article {
+  border-right: 2px solid #eee !important;
+  border-bottom: 2px solid #eee !important;
+  border-left-width: 0px !important;
+  border-top-width: 0px !important;
+}
+
+.category-description {
+  text-align: center;
+}
+#main>* {
+  padding: 2rem;
+}
+#main>.posts>* {
+  padding: 2rem;
+}
