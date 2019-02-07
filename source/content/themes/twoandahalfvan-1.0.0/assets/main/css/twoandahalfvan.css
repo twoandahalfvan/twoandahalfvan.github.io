@@ -39,6 +39,9 @@ body {
 p {
   text-align: start;
 }
+.content {
+  max-width: inherit;
+}
 
 #copyright {
   margin: 0;
@@ -57,9 +60,29 @@ p {
 .category-description {
   text-align: center;
 }
+#nav, #main {
+  max-width: inherit;
+}
 #main>* {
   padding: 2rem;
 }
 #main>.posts>* {
   padding: 2rem;
+  width: calc(100% / 3);
+}
+.post-footer {
+  margin: inherit;
+}
+table td {
+  padding: 0px 2px;
+}
+@media screen and (max-width: 1024px) {
+  #main>.posts>* {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 736px) {
+  #main>.posts>* {
+    width: 100%;
+  }
 }
