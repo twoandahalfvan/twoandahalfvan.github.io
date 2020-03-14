@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>twoandahalfvan</title>
-    <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/feed.xml" rel="self" />
-    <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io" />
-    <updated>2020-03-14T16:29:44+00:00</updated>
+    <link href="https://twoandahalfvan.github.io/feed.xml" rel="self" />
+    <link href="https://twoandahalfvan.github.io" />
+    <updated>2020-03-14T16:56:31+00:00</updated>
     <author>
         <name>Judith</name>
     </author>
-    <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io</id>
+    <id>https://twoandahalfvan.github.io</id>
 
     <entry>
         <title>DIY Lithium battery</title>
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/diy-lithium-battery/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/diy-lithium-battery/</id>
+        <link href="https://twoandahalfvan.github.io/diy-lithium-battery/"/>
+        <id>https://twoandahalfvan.github.io/diy-lithium-battery/</id>
 
         <updated>2020-03-14T16:16:03+00:00</updated>
             <summary>
@@ -87,8 +87,8 @@
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/choosing-the-right-van/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/choosing-the-right-van/</id>
+        <link href="https://twoandahalfvan.github.io/choosing-the-right-van/"/>
+        <id>https://twoandahalfvan.github.io/choosing-the-right-van/</id>
 
         <updated>2020-03-14T15:54:19+00:00</updated>
             <summary>
@@ -202,20 +202,20 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/</id>
+        <link href="https://twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/"/>
+        <id>https://twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/</id>
             <category term="Spain"/>
 
         <updated>2020-03-06T18:51:32+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
+                        <img src="https://twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
                     On our way to escape winter in Germany we made it quickly through France, passed Barcelona and wanted to be as far away from upcoming snow as possible - winter was coming. However, Valencia happened to be on the way. And we stayed for a little&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
+                    <img src="https://twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
                 <p><strong>On our way to escape winter in Germany we made it quickly through France, passed Barcelona and wanted to be as far away from upcoming snow as possible - winter was coming. However, Valencia happened to be on the way. And we stayed for a little bit longer to fall in love with this city - even though storm Gloria hit us. </strong></p>
 <p id="mcetoc_1e2hb67iq0">Valencia is Spain's third biggest city - after Madrid and Bareclona -, and it is the capital of the region as well as of the autonomous community also named Valencia (Spain and its <em>municipios</em>, <em>provincias</em> and <em>comunidades autonomas</em>...). It is located in the <em>Levante, la costa levantina, </em>which refers to Spain's east and the location on the Spanish Mediterranean coast.</p>
 <h2 id="mcetoc_1e28o2ut80">Slow and spacious Valencia</h2>
@@ -245,8 +245,8 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/slideout-fridge/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/slideout-fridge/</id>
+        <link href="https://twoandahalfvan.github.io/slideout-fridge/"/>
+        <id>https://twoandahalfvan.github.io/slideout-fridge/</id>
             <category term="Shopping List"/>
 
         <updated>2020-02-27T22:48:14+00:00</updated>
@@ -268,8 +268,8 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/drawer-and-fridge-slides/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/drawer-and-fridge-slides/</id>
+        <link href="https://twoandahalfvan.github.io/drawer-and-fridge-slides/"/>
+        <id>https://twoandahalfvan.github.io/drawer-and-fridge-slides/</id>
             <category term="Shopping List"/>
 
         <updated>2020-02-27T22:48:21+00:00</updated>
@@ -292,20 +292,20 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/individual-sized-shower-tub/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/individual-sized-shower-tub/</id>
+        <link href="https://twoandahalfvan.github.io/individual-sized-shower-tub/"/>
+        <id>https://twoandahalfvan.github.io/individual-sized-shower-tub/</id>
             <category term="Shopping List"/>
 
         <updated>2020-03-06T17:54:58+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/7/teaser-shower-tub.jpg" alt="van shower" />
+                        <img src="https://twoandahalfvan.github.io/media/posts/7/teaser-shower-tub.jpg" alt="van shower" />
                     This 1.5mm thick stainless steel shower tub is built according to your dimensions, which mean it will take a while. You can specify the number and position of the drainage points. You will need additional 1.5mm thick stainless steel sheets for the walls of the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/7/teaser-shower-tub.jpg" alt="van shower" />
+                    <img src="https://twoandahalfvan.github.io/media/posts/7/teaser-shower-tub.jpg" alt="van shower" />
                 <p>This 1.5mm thick stainless steel shower tub is built according to your dimensions, which mean it will take a while. You can specify the number and position of the drainage points.</p>
 <p>You will need additional 1.5mm thick stainless steel sheets for the walls of the shower. You can source these sheets from your local metal shop.</p>
 <p>If you need more info on how to build this type of shower, take a look at our article on [how to build a space saving shower]</p>
@@ -319,20 +319,20 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/standardized-boxes/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/standardized-boxes/</id>
+        <link href="https://twoandahalfvan.github.io/standardized-boxes/"/>
+        <id>https://twoandahalfvan.github.io/standardized-boxes/</id>
             <category term="Shopping List"/>
 
         <updated>2020-02-27T22:49:50+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/6/eurobox-flap-side.jpg" alt="" />
+                        <img src="https://twoandahalfvan.github.io/media/posts/6/eurobox-flap-side.jpg" alt="" />
                     For the garage slideout, we use heavy duty full extension slides. These slides are meant for heavy loads and unlike the [drawer and fridge slides] they do not have a self retracting or soft closing mechanism but a locking function, that keeps them in place&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/6/eurobox-flap-side.jpg" alt="" />
+                    <img src="https://twoandahalfvan.github.io/media/posts/6/eurobox-flap-side.jpg" alt="" />
                 <p><span style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">For the garage slideout, we use heavy duty full extension slides. These slides are meant for heavy loads and unlike the [drawer and fridge slides] they do not have a self retracting or soft closing mechanism but a locking function, that keeps them in place while driving.</span></p>
 <p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/388QYI2">https://amzn.to/388QYI2</a></p>
 <p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/32vXYgQ">https://amzn.to/32vXYgQ</a></p>
@@ -347,21 +347,21 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/water-tank/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/water-tank/</id>
+        <link href="https://twoandahalfvan.github.io/water-tank/"/>
+        <id>https://twoandahalfvan.github.io/water-tank/</id>
             <category term="Shopping List"/>
 
         <updated>2020-03-06T17:55:04+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/5/watertank-teaser.jpg" alt="van watertank " />
+                        <img src="https://twoandahalfvan.github.io/media/posts/5/watertank-teaser.jpg" alt="van watertank " />
                     This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if it fits other vans too. It comes with several prefabricated holes and connections: Two maintenance&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/5/watertank-teaser.jpg" alt="van watertank " />
-                <p><img class="post__image post__image--left" src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/5/van-watertank-90l.jpg" alt="watertank" width="672" height="320">This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if it fits other vans too. It comes with several prefabricated holes and connections: Two maintenance lids on the top, one inlet and one outlet. The outlet is 26mm pipe that is molded on the bottom of the tank, so you must drill a hole in your van and attach a ball valve on the outside.  </p>
+                    <img src="https://twoandahalfvan.github.io/media/posts/5/watertank-teaser.jpg" alt="van watertank " />
+                <p><img class="post__image post__image--left" src="https://twoandahalfvan.github.io/media/posts/5/van-watertank-90l.jpg" alt="watertank" width="672" height="320">This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if it fits other vans too. It comes with several prefabricated holes and connections: Two maintenance lids on the top, one inlet and one outlet. The outlet is 26mm pipe that is molded on the bottom of the tank, so you must drill a hole in your van and attach a ball valve on the outside.  </p>
 <p>Unfortunately, it seems to be only available in Europe.</p>
 <p>EU: <a href="https://www.campingwagner.de/product_info.php/info/p62200_Frischwassertank-fuer-Vans--90l.html">https://www.campingwagner.de/product_info.php/info/p62200_Frischwassertank-fuer-Vans--90l.html</a></p>
             ]]>
@@ -372,21 +372,21 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/planning-your-layout/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/planning-your-layout/</id>
+        <link href="https://twoandahalfvan.github.io/planning-your-layout/"/>
+        <id>https://twoandahalfvan.github.io/planning-your-layout/</id>
             <category term="Van Build"/>
             <category term="Planning"/>
 
         <updated>2020-02-29T20:32:30+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/4/pascal-debrunner-1059218-unsplash.jpg" alt="" />
+                        <img src="https://twoandahalfvan.github.io/media/posts/4/pascal-debrunner-1059218-unsplash.jpg" alt="" />
                     Planning is an important step when converting a van to a livable home. Many people skimp on this. If you skimp in the beginning, you're probably gonna skimp later on in the build too. So, don't skip the planning phase. You don't need to create&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/4/pascal-debrunner-1059218-unsplash.jpg" alt="" />
+                    <img src="https://twoandahalfvan.github.io/media/posts/4/pascal-debrunner-1059218-unsplash.jpg" alt="" />
                 <p><strong>Planning is an important step when converting a van to a livable home. Many people skimp on this. If you skimp in the beginning, you're probably gonna skimp later on in the build too. So, don't skip the planning phase.</strong></p>
 <p>You don't need to create a 3D model in order to plan your build. You can start simple, get a piece of paper and a pen and start drawing. If you are unsure about your layout, add in some scissors and create individual items representing your bed, your toilet, your shower etc. Then rearrange until you like it.</p>
 <p>Or if you have the space, get some tape and create your van layout in its actual size on the floor. This way you get a good feeling about the size and where you might need to add a couple of centimeters.</p>
@@ -406,20 +406,20 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <author>
             <name>Judith</name>
         </author>
-        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/van-tour/"/>
-        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/van-tour/</id>
+        <link href="https://twoandahalfvan.github.io/van-tour/"/>
+        <id>https://twoandahalfvan.github.io/van-tour/</id>
             <category term="Vanlife"/>
 
         <updated>2020-03-06T18:14:23+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/3/vantour-teaser-image.jpg" alt="vantour twoandahalfvan" />
+                        <img src="https://twoandahalfvan.github.io/media/posts/3/vantour-teaser-image.jpg" alt="vantour twoandahalfvan" />
                     How to describe our camper build? I guess not a thousand words could describe what a short video tour does. So here you have it: a video van tour of our converted Citroen Jumper. With a high roof, long body and extended wheelbase (L4H3) there is plenty&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/3/vantour-teaser-image.jpg" alt="vantour twoandahalfvan" />
+                    <img src="https://twoandahalfvan.github.io/media/posts/3/vantour-teaser-image.jpg" alt="vantour twoandahalfvan" />
                 <p><strong>How to describe our camper build? I guess not a thousand words could describe what a short video tour does. So here you have it: a video van tour of our converted Citroen Jumper. With a high roof, long body and extended wheelbase (L4H3) there is plenty to see.</strong> </p>
 <p>Our van tour on our <a href="youtube.com/twoandahlafvan">YouTube channel twoandahalfvan</a>:</p>
 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/Uh5xXAoELaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" ></iframe></p>
