@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>twoandahalfvan</title>
+    <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/feed.xml" rel="self" />
+    <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io" />
+    <updated>2020-03-14T16:29:44+00:00</updated>
+    <author>
+        <name>Judith</name>
+    </author>
+    <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io</id>
+
+    <entry>
+        <title>DIY Lithium battery</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/diy-lithium-battery/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/diy-lithium-battery/</id>
+
+        <updated>2020-03-14T16:16:03+00:00</updated>
+            <summary>
+                <![CDATA[
+                    DIY Lithium BatteryBuilding your own 12V Lithium battery can save you a couple of thousand € when compared to ready-to-buy Lithium batteries. However, it can be a daunting task if you have never done it before. In this post we will describe some basics you&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1 id="mcetoc_1e3csbdt90">DIY Lithium Battery</h1>
+<p class="content">Building your own 12V Lithium battery can save you a couple of thousand € when compared to ready-to-buy Lithium batteries. However, it can be a daunting task if you have never done it before. In this post we will describe some basics you need to know before you can build your own 12V Lithium battery.</p>
+<div class="content">
+<h2 id="warning">WARNING</h2>
+<p>Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity.<br> If you are unsure if you meet these requirements, please buy a ready-to-use battery or consult a qualified electrician.</p>
+<iframe width="580" height="326" src="https://3dwarehouse.sketchup.com/embed/16bf9dab-7cc0-42db-a042-a9535bba4d33" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="allowfullscreen"></iframe>
+<p>Let's start with some basic terminology:</p>
+<ul>
+<li>BMS - Battery Management System</li>
+<li>SoC - State of Charge</li>
+<li>OVP - Over Voltage Protection</li>
+<li>UVP - Under Voltage Protection</li>
+<li>LVP - Low Voltage Protection</li>
+<li>Cells</li>
+<li>Balancers</li>
+<li>Relays</li>
+<li>Hystersis</li>
+</ul>
+<p>Lets start with the BMS. The task of a BMS is to protect a battery and to make sure that it operates within the specifications of the battery cell manufacturer. While you can operate some kind of batteries without a BMS, you should never operate a Lithium battery without a BMS. A BMS can also contain some additional features, such as a <strong>State of Charge</strong> detection ("how much juice is left?"), but its core function is to protect the battery from unwanted conditions, such as OVP and UVP and unsupported temperatures.</p>
+<p>Lithium batteries operate within a voltage range. A Lithium battery with a nominal voltage of 12V has an actual voltage of approximately 14,4V when fully charged and about 11V when it is empty. Now, these values are not static or fixed, some people like to charge their Lithium batteries up to 14,6V. This is often a topic of debate, because Lithium batteries tend to have a longer lifespan (measured in charge cycles) when they are not constantly fully charged or fully emptied. In fact, Lithium batteries have a significantly longer life expectation when they are operated around the 50% SoC.</p>
+<p>Most 12V appliances can operate within the voltage range that a 12V nominal voltage battery provides. However, some 12V appliances may not work correctly when the system voltage is too low or too high, in which case you could add DC-DC converter, which will regulate the system voltage to constant 12V at the expense of a certain efficiency rate (such as 96%).</p>
+<p>When you buy a charger for your battery, you must ensure that it is compatible with your battery in terms of the type of chemistry and system voltage. You should never use a lead acid battery charger on a lithium battery and vice versa, because these chargers have different cutoff voltages and charging methods or algorithms. A charging method or algorithm determines how a battery is charged over time.</p>
+<p>In order to protect the Lithium battery cells from being over charged, we need <strong>Over Voltage Protection</strong> (OVP). Similarly, we need <strong>Under Voltage Protection</strong> (UVP), sometimes also referred to as Low Voltage Protection (LVP) to protect the cells from being discharged beyond it's specifications. If you charge or discharge your battery without OVP and UVP, you can permanently damage the cells, which may cause them to be unusable.</p>
+<p>Now, every battery is made up of individual <strong>cells</strong> that are usually wired together in series. In the case of a 12V LiFePo4 battery, each of the four cells that are necessary to create a working battery may have a voltage of 3,6V when the complete battery is fully charged (4 cells * 3,6V = 14,4V). However, in reality, these cells are likely not to have the same voltage. They are more likely to diverge slightly, as their chemical properties may differ slightly and change over time. Here is an example of what your cells voltage might look like if it is 100% charged.</p>
+<table>
+<thead>
+<tr>
+<th>Cell</th>
+<th>Voltage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>3,59</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3,60</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3,61</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3,60</td>
+</tr>
+</tbody>
+</table>
+<p>Because every cell has slightly different chemical characteristics, some cells may be fully charged before other cells. In order to still reach the 14,4V, the charger keeps charging. If the fully charged cell continues to charge, it would be overcharged and thus damaged. It is the task of so called <strong>cell balancers</strong> to make sure that individual cells are charged equally. These balancers are typically electric components that are mounted directly on top of the individual cell terminals. Balancing can be done by actively routing the charging current to the cells that needs it ("active balancing") or by simply converting the superfluous charging current to heat by means of a simple resistor (which may require a heat dissipation device, such as a fan or heat sink).</p>
+<p>Cell balancers may also measure the voltage of the cell they are mounted to and signal an over voltage or under voltage to an upstream device called "<strong>relay</strong>". You can think of a relay as a remotely controlled switch, that switches an electrical connection based on the information it gets. For instance, if one cell balancer singals an under voltage situation to the relay input of a 230V inverter, the inverter may switch it's electrical connection to the battery off. Relays exist in various form factors.</p>
+<p>Last but not least, a <strong>hysteresis</strong> function helps to detect temporary low or high voltage situations. For instance, a coffee machine has a very high electrical demand when it brews, causing a high dip in system voltage for a very short amount of time. In it's simplest form, a hysteresis function requires a certain amount of time to pass before it signals under voltage. Some systems have multiple OVP or LVP functions, allowing for instance a voltage level of 11,2V to exist for 30 seconds, but cutting off directly at 11V.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Choosing the right van</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/choosing-the-right-van/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/choosing-the-right-van/</id>
+
+        <updated>2020-03-14T15:54:19+00:00</updated>
+            <summary>
+                <![CDATA[
+                    Choosing the right van is a crucial step when planning to build your own mobile home. This post will give you an overview of what's available in the EU market. We will focus on panel vans only and ignore any other potential vehicle types, such&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<p>Choosing the right van is a crucial step when planning to build your own mobile home.</p>
+<p>This post will give you an overview of what's available in the EU market. We will focus on panel vans only and ignore any other potential vehicle types, such as box trucks or family vans. Maybe we'll do a vehicle class comparison in the future, but for now we'll stick to panel vans with a 3,5 ton limit or less.</p>
+<br> <img src="https://images.unsplash.com/photo-1535655685871-dc8158ff167e?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=crop&amp;ixid=eyJhcHBfaWQiOjExNzczfQ"> <br><center>Photo by <a href="https://unsplash.com/@fachymarin?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Fachy Marín</a> / <a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Unsplash</a></center><br>
+<h2 id="popularpanelvans">Popular Panel Vans</h2>
+<p>There are a couple of different panel vans available in Europe. We will consider the most popular ones, since they are readily available on the used car market.</p>
+<ul>
+<li>Fiat Ducato</li>
+<li>Peugeot Boxer</li>
+<li>Citroen Jumper</li>
+<li>Mercedes Sprinter</li>
+<li>VW Crafter</li>
+<li>Ford Transit</li>
+<li>Iveco Daily</li>
+</ul>
+<p>The Ducato, the Boxer and the Jumper share the same basic characteristics, such as chassis, body, dimensions etc. Since they are all built in the Italian Sevel factory, they are often referred to as <strong>Sevel Family</strong>.</p>
+<p>Similarly, the Mercedes Sprinter and VW Crafter used to share the same basis. However, recent models are built in separate factories, so we will compare them individually.</p>
+<h2 id="basicfeatures">Basic features</h2>
+<p>All details as of Q1 2019.</p>
+<br>
+<div id="basic_features"> </div>
+<h2 id="sizematters">Size matters</h2>
+<p>The following lists width, height, length and volume of the<strong> <em>cargo area</em></strong> of popular panel van models, subdivided in L1H1 form (Length 1, Height 1).<br> Dimensions are in millimeters, volume in square meters.<br> All dimensions for the two wheel drive version.<br> All details as of Q1 2019.</p>
+<br>
+<div id="table_div"> </div>
+<script>// <![CDATA[
+google.charts.load('current', {'packages':['table'], language: 'en'});
+      google.charts.setOnLoadCallback(drawTables);
+
+      function drawTables() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Vehicle');
+        data.addColumn('string', 'Model');
+        data.addColumn('number', 'Width');
+        data.addColumn('number', 'Length');
+        data.addColumn('number', 'Height');
+        data.addColumn('number', 'Volume');
+        data.addRows([
+  ["Sevel","L1H1",1870,2670,1662,8  ],
+  ["Sevel","L1H2",1870,3120,1662,10  ],
+  ["Sevel","L2H2",1870,2120,1932,11.5  ],
+  ["Sevel","L3H2",1870,3705,1932,13  ],
+  ["Sevel","L3H3",1870,3705,2172,15  ],
+  ["Sevel","L4H2",1870,4070,1932,15  ],
+  ["Sevel","L4H3",1870,4070,2172,17  ],
+  ["Sprinter","L1H1",1787,2607,1780,7.8  ],
+  ["Sprinter","L1H2",1787,2607,2070,8.8  ],
+  ["Sprinter","L2H1",1787,3272,1782,9.5  ],
+  ["Sprinter","L2H2",1787,3272,2072,11  ],
+  ["Sprinter","L4H2",1787,4307,1995,14  ],
+  ["Sprinter","L4H3",1787,4307,2210,15.5  ],
+  ["Sprinter","L5H2",1787,4707,1996,15.5  ],
+  ["Sprinter","L5H3",1787,4704,2208,17  ],
+  ["Crafter","L3H2",1832,3450,1762,9.9  ],
+  ["Crafter","L3H3",1832,3450,1961,11.3  ],
+  ["Crafter","L4H3",1832,4300,1961,14.4  ],
+  ["Crafter","L4H4",1832,4300,2189,16.1  ],
+  ["Crafter","L5H3",1832,4855,1961,16.4  ],
+  ["Crafter","L5H4",1832,4855,2196,18.4  ],
+  ["Transit","L2H2",1786,3083,1886,10  ],
+  ["Transit","L2H3",1786,3083,2125,11.2  ],
+  ["Transit","L3H2",1786,3533,1886,10.8  ],
+  ["Transit","L3H3",1786,3533,2125,13  ],
+  ["Transit","L4H3",1786,4256,2025,15.1  ],
+  ["Daily","L2H1",1740,3130,1545,9  ],
+  ["Daily","L2H2",1740,3130,1900,10.8  ],
+  ["Daily","L3H2",1740,3540,1900,12  ],
+  ["Daily","L3H3",1740,3540,2100,13.4  ],
+  ["Daily","L4H2",1740,4680,1900,16  ],
+  ["Daily","L4H3",1740,4680,2100,18  ],
+  ["Daily","L5H2",1740,5125,1900,17.5  ],
+  ["Daily","L5H3",1740,5125,2100,19.6  ]
+]);
+
+        var basics = new google.visualization.DataTable();
+        basics.addColumn('string', '');
+        basics.addColumn('string', 'Sevel');
+        basics.addColumn('string', 'Sprinter');
+        basics.addColumn('string', 'Crafter');
+        basics.addColumn('string', 'Transit');
+        basics.addColumn('string', 'Daily');
+        basics.addRows([
+                      ["All Wheel Drive","By Third Party only","Optional","Optional","Optional","Optional"  ],
+                      ["Camper Market Share","65%","6%","<1%","9%","2%"  ],
+                      ["Affordability","€-€€","€€-€€€","€€-€€€","€€-€€€","€€"  ],
+                      ["Notes","Only vehicle wide enough for diagonal bed","Known to rust, worldwide availability of parts","Very similar to Sprinter","Difficult to convert due to many curves in cargo area","Engines with large displacement available"  ],
+]);
+
+        new google.visualization.Table(document.getElementById('table_div')).draw(data, {showRowNumber: false, width: '100%', height: '100%'});
+		new google.visualization.Table(document.getElementById('basic_features')).draw(basics, {showRowNumber: false, width: '100%', height: '100%'});
+      }
+// ]]></script>
+<p>As you can see from the above chart, the Sevel family gives you the best <strong>length-to-volume ratio</strong>, the Daily has the highest overall cargo capacity.</p>
+<h2 id="otherfactors">Other factors</h2>
+<p>There are other factors when deciding for a specific van, such as price, availability, perceived build quality, repairability, cost of ownership etc. which we will not discuss here but should nonetheless be considered when buying a van.</p>
+<p>When it comes to the engine type, Europeans currently don't have a choice. None of the listed panel vans can be ordered with a gas engine. While some panel vans can be ordered with an <strong><em>electric motor</em></strong>, there are a number of drawbacks that need to be considered. Apart from the often mentioned<strong> <em>range anxiety</em></strong>, the <em><strong>lack of charging infrastructure</strong></em>, the <strong><em>hefty price tag</em></strong> (roughly 70.000 for an Iveco Daily Electric), there is a more fundamental problem. The weight of the batteries simply does not allow for such a van to be properly converted to a camper van under the 3.5 ton limit. Currently, electric vans are simply <strong>too heavy</strong>.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Fall in love with Valencia (in January)</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/</id>
+            <category term="Spain"/>
+
+        <updated>2020-03-06T18:51:32+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
+                    On our way to escape winter in Germany we made it quickly through France, passed Barcelona and wanted to be as far away from upcoming snow as possible - winter was coming. However, Valencia happened to be on the way. And we stayed for a little&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
+                <p><strong>On our way to escape winter in Germany we made it quickly through France, passed Barcelona and wanted to be as far away from upcoming snow as possible - winter was coming. However, Valencia happened to be on the way. And we stayed for a little bit longer to fall in love with this city - even though storm Gloria hit us. </strong></p>
+<p id="mcetoc_1e2hb67iq0">Valencia is Spain's third biggest city - after Madrid and Bareclona -, and it is the capital of the region as well as of the autonomous community also named Valencia (Spain and its <em>municipios</em>, <em>provincias</em> and <em>comunidades autonomas</em>...). It is located in the <em>Levante, la costa levantina, </em>which refers to Spain's east and the location on the Spanish Mediterranean coast.</p>
+<h2 id="mcetoc_1e28o2ut80">Slow and spacious Valencia</h2>
+<p>Even though around 800.000 people live in this beautiful city, it just does not feel crowded, let alone jammed with cars. In the city center or on shopping streets, we felt like we had enough air to breathe and space to stop for enjoyable rests. Nobody pushed us around while strolling slowly. It was not overcrowded with tourists although it definitely has the potential. Is this only due to off-season?</p>
+<p>What is more: When you need a different scenery, you have perfect conditions. Stunning mountains and hikes in the backyard and a huge stretch of beach in its frontyard give you many possibilities to stretch your legs. </p>
+<h2 id="mcetoc_1e28p6rsu1">Bike-friendly Valencia</h2>
+<p>Talking about stretching your legs: Valencians ride two-wheelers, bikes or e-scooters. No wonder, because Valencia really is perfect to explore by bike. According to Wikipedia the city offers 108 km of bike lanes and EuroVelo, the network of cycling routes across Europe, passes through Valencia as well. Since we love riding bikes, we knew how we wanted to get through the city. Luckily, travelling in a camper also means you have everything you need with you. That is true for our bikes as well. </p>
+<p>How was the biking experience? After you identify the bike lanes and get to know the street grid a little bit better, you manage just perfectly. Bigger streets offer seperate bike lanes in grass green. Smaller ones are directly labled as bike roads: cars where only allowed to drive 30km/h and are advised to pay attention to byciclists. Be aware: If there is a seperate bike lane, even when it is on the other side of the road (one bike lane often offers both directions), make sure to use it. Otherwise, cars might honk at you. </p>
+<p>If you don't have your bike with you, no problem. There are plenty of bike rental shops in Valencia. Even better: Try Valenbisi (as in: Valencia bicicleta Sí!) with several stations across the city. Park and ride, ride and park - the better hop-on-hop-off service if you ask me. You can reach all the sights the city has to offer, and even the ones a little bit farer away. </p>
+<h2 id="mcetoc_1e28q27en2">What sights to see in Valencia?</h2>
+<ol>
+<li>Definitely all the green there is, especially the park in the former Turia river, that went through Valencia: <strong>El Jardín del Turia</strong>. The "Turia garden" in the center stretches all the way from the Parque de Cabecera and Bioparc down to the Port of Valencia. Grab your bike and enjoy the ride under impressive bridges along orange trees and flowers. It is beautiful and sets the stage for outdoor activities like jogging, playing football/soccer or dancing. Even with all the bridges crossing the park it is hard to imagine that this park has been a river before. And it is even harder to imagine that after the big flood in 1957, government officials wanted to convert this area into more space for cars and roads. But luckily, <em>valencians </em>demanded to convert it into green space for the city. </li>
+<li>When you ride or stroll along the Jardin del Turia in direction of the port, you won't miss it: la <i>Ciutat de les Arts i les Ciències, </i>the <strong>City of Arts and Sciences. </strong>(Is it just me or does it sound as if it where a place of GOT?) This cultural and architectural area is stunning, even if you won't go inside any of the buildings. I will just let these pictures speak for themselves: 
+<div class="gallery"  > </div>
+</li>
+<li>Café and shops hopping in Russafa</li>
+<li>Street art in El Carmen</li>
+<li>Port Sa Platja</li>
+<li>Beaches</li>
+</ol>
+<h2 id="mcetoc_1e28tu1vo0">Vegan in Valencia</h2>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Slideout Fridge</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/slideout-fridge/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/slideout-fridge/</id>
+            <category term="Shopping List"/>
+
+        <updated>2020-02-27T22:48:14+00:00</updated>
+            <summary>
+                <![CDATA[
+                    We use a top loading fridge that uses a 12V compressor. The top loading helps on keeping the cold air inside the fridge when it is opened. The 12V compressor is currently the most energy efficient method for reliable cooling in all temperatures. The compressor&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>We use a top loading fridge that uses a 12V compressor. The top loading helps on keeping the cold air inside the fridge when it is opened. The 12V compressor is currently the most energy efficient method for reliable cooling in all temperatures. The compressor in the fridge that we have used is the exact same model as the one that is used in a more popular model that you see in a lot of van conversions. There are two key differences between these two models: Insulation and price. The model we use is slightly less well insulated and cheaper. If you are planning on installing solar in your van, then there is always enough power for a 12V fridge when it is hot, so the weaker insulation actually becomes an advantage: Less wasted space and weight.</p>
+<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2HY3orA">https://amzn.to/2HY3orA</a></p>
+<p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2w81faj">https://amzn.to/2w81faj</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Drawer and Fridge Slides</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/drawer-and-fridge-slides/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/drawer-and-fridge-slides/</id>
+            <category term="Shopping List"/>
+
+        <updated>2020-02-27T22:48:21+00:00</updated>
+            <summary>
+                <![CDATA[
+                    For the drawers and the fridge we use full extension slides that are soft closing and self closing. We think these slides are ideal for mobile homes since the self retracting mechanism (a simple spring) helps in keeping the drawers in place while driving. You&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>For the drawers and the fridge we use full extension slides that are soft closing and self closing. We think these slides are ideal for mobile homes since the self retracting mechanism (a simple spring) helps in keeping the drawers in place while driving. You will still need a proper locking mechanism for the drawers that have dangerous or heavy contents. On the other hand, the soft closing mechanism makes these slides a joy to use, as you don't need to worry about how hard you slam those drawers.</p>
+<p>Make sure to order the right length!</p>
+<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2T2GPIG">https://amzn.to/2T2GPIG</a></p>
+<p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2Tk8uUp">https://amzn.to/2Tk8uUp</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Individual sized shower tub</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/individual-sized-shower-tub/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/individual-sized-shower-tub/</id>
+            <category term="Shopping List"/>
+
+        <updated>2020-03-06T17:54:58+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/7/teaser-shower-tub.jpg" alt="van shower" />
+                    This 1.5mm thick stainless steel shower tub is built according to your dimensions, which mean it will take a while. You can specify the number and position of the drainage points. You will need additional 1.5mm thick stainless steel sheets for the walls of the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/7/teaser-shower-tub.jpg" alt="van shower" />
+                <p>This 1.5mm thick stainless steel shower tub is built according to your dimensions, which mean it will take a while. You can specify the number and position of the drainage points.</p>
+<p>You will need additional 1.5mm thick stainless steel sheets for the walls of the shower. You can source these sheets from your local metal shop.</p>
+<p>If you need more info on how to build this type of shower, take a look at our article on [how to build a space saving shower]</p>
+<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://shop.versandmetall.de/de/wohnmobil-zubehoer/edelstahl-duschwannen-duschtassen-fuer-wohnmobile/">https://shop.versandmetall.de/de/wohnmobil-zubehoer/edelstahl-duschwannen-duschtassen-fuer-wohnmobile/</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Garage Slideout</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/standardized-boxes/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/standardized-boxes/</id>
+            <category term="Shopping List"/>
+
+        <updated>2020-02-27T22:49:50+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/6/eurobox-flap-side.jpg" alt="" />
+                    For the garage slideout, we use heavy duty full extension slides. These slides are meant for heavy loads and unlike the [drawer and fridge slides] they do not have a self retracting or soft closing mechanism but a locking function, that keeps them in place&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/6/eurobox-flap-side.jpg" alt="" />
+                <p><span style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">For the garage slideout, we use heavy duty full extension slides. These slides are meant for heavy loads and unlike the [drawer and fridge slides] they do not have a self retracting or soft closing mechanism but a locking function, that keeps them in place while driving.</span></p>
+<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/388QYI2">https://amzn.to/388QYI2</a></p>
+<p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/32vXYgQ">https://amzn.to/32vXYgQ</a></p>
+<p>We use standard size boxes (called Euro Boxes) with a side door for easy access when the boxes are stacked. This is both practical and weight saving, as you only need one set of heavy duty slides. We are very happy with this choice, as it keeps the garage organised with a minimal amount of effort.</p>
+<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.obi.de/aufbewahrungsboxen/obi-eurobox-system-tauro-box-flap-side-40-x-30-x-22-cm-transparent/p/2615755">https://www.obi.de/aufbewahrungsboxen/obi-eurobox-system-tauro-box-flap-side-40-x-30-x-22-cm-transparent/p/2615755</a></p>
+<p>USA: Unfortunately the Euro Box system is not established in the USA. There seems to be a high demand for these boxes, so if you are interested in trading them in bulk and have experience in importing larger quantities, let us know and we will get you the contact details from the manufacturer.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Water Tank: Space saving options?</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/water-tank/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/water-tank/</id>
+            <category term="Shopping List"/>
+
+        <updated>2020-03-06T17:55:04+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/5/watertank-teaser.jpg" alt="van watertank " />
+                    This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if it fits other vans too. It comes with several prefabricated holes and connections: Two maintenance&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/5/watertank-teaser.jpg" alt="van watertank " />
+                <p><img class="post__image post__image--left" src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/5/van-watertank-90l.jpg" alt="watertank" width="672" height="320">This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if it fits other vans too. It comes with several prefabricated holes and connections: Two maintenance lids on the top, one inlet and one outlet. The outlet is 26mm pipe that is molded on the bottom of the tank, so you must drill a hole in your van and attach a ball valve on the outside.  </p>
+<p>Unfortunately, it seems to be only available in Europe.</p>
+<p>EU: <a href="https://www.campingwagner.de/product_info.php/info/p62200_Frischwassertank-fuer-Vans--90l.html">https://www.campingwagner.de/product_info.php/info/p62200_Frischwassertank-fuer-Vans--90l.html</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Planning your layout</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/planning-your-layout/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/planning-your-layout/</id>
+            <category term="Van Build"/>
+            <category term="Planning"/>
+
+        <updated>2020-02-29T20:32:30+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/4/pascal-debrunner-1059218-unsplash.jpg" alt="" />
+                    Planning is an important step when converting a van to a livable home. Many people skimp on this. If you skimp in the beginning, you're probably gonna skimp later on in the build too. So, don't skip the planning phase. You don't need to create&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/4/pascal-debrunner-1059218-unsplash.jpg" alt="" />
+                <p><strong>Planning is an important step when converting a van to a livable home. Many people skimp on this. If you skimp in the beginning, you're probably gonna skimp later on in the build too. So, don't skip the planning phase.</strong></p>
+<p>You don't need to create a 3D model in order to plan your build. You can start simple, get a piece of paper and a pen and start drawing. If you are unsure about your layout, add in some scissors and create individual items representing your bed, your toilet, your shower etc. Then rearrange until you like it.</p>
+<p>Or if you have the space, get some tape and create your van layout in its actual size on the floor. This way you get a good feeling about the size and where you might need to add a couple of centimeters.</p>
+<p>That being said, modelling your van in 3D is a very helpful step. It will help you solve problems before they even exist. Which means that it will help you save money, because you don't have to build things multiple times before they work the way you want to. </p>
+<p>To get things started, I recommend downloading Sketchup Make, then watch Greg Virgoe's wunderful tutorial on how to draw your van and repeat his steps.</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/b47sF7l1yDM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe></p>
+<p>By the way, if you haven't done already, check out Greg Virgoe's build videos. Absolutely brilliant!</p>
+<p>Anyway, after you have figured out the basics of Sketchup you will find that you can rearrange things pretty quickly and get a good spatial feeling about the different van layouts. </p>
+<p>We have tried various layouts and at the end, we decided on this one. You might need to click the model and wait a little before you can interact with it. Enjoy.</p>
+<p> </p>
+<iframe width="580" height="326" src="https://3dwarehouse.sketchup.com/embed/a645e56d-ffdb-4e38-8299-3afbe6f0b9c9" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="allowfullscreen"></iframe>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Van Tour without frills!</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.com/twoandahalfvan.github.io/van-tour/"/>
+        <id>https://twoandahalfvan.github.com/twoandahalfvan.github.io/van-tour/</id>
+            <category term="Vanlife"/>
+
+        <updated>2020-03-06T18:14:23+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/3/vantour-teaser-image.jpg" alt="vantour twoandahalfvan" />
+                    How to describe our camper build? I guess not a thousand words could describe what a short video tour does. So here you have it: a video van tour of our converted Citroen Jumper. With a high roof, long body and extended wheelbase (L4H3) there is plenty&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.com/twoandahalfvan.github.io/media/posts/3/vantour-teaser-image.jpg" alt="vantour twoandahalfvan" />
+                <p><strong>How to describe our camper build? I guess not a thousand words could describe what a short video tour does. So here you have it: a video van tour of our converted Citroen Jumper. With a high roof, long body and extended wheelbase (L4H3) there is plenty to see.</strong> </p>
+<p>Our van tour on our <a href="youtube.com/twoandahlafvan">YouTube channel twoandahalfvan</a>:</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Uh5xXAoELaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" ></iframe></p>
+<p>This build took us about ten months of hard work, tears and a lot of laughter. What is not in the video: the intense planning that went ahead. Please check out our <a href="../../../../../planning">planning process and 3D model</a>. This helped us a lot to visualize and to grasp the whole project. </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
