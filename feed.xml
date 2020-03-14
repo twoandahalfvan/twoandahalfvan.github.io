@@ -3,7 +3,7 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.github.io/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.github.io" />
-    <updated>2020-03-14T22:16:02+00:00</updated>
+    <updated>2020-03-14T22:30:41+00:00</updated>
     <author>
         <name>Judith</name>
     </author>
@@ -402,7 +402,7 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         </content>
     </entry>
     <entry>
-        <title>Van Tour without frills!</title>
+        <title>No-frills van tour</title>
         <author>
             <name>Judith</name>
         </author>
@@ -410,7 +410,7 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <id>https://twoandahalfvan.github.io/van-tour/</id>
             <category term="Vanlife"/>
 
-        <updated>2020-03-14T20:55:19+00:00</updated>
+        <updated>2020-03-14T22:19:06+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/3/Untitled.jpg" alt="vantour twoandahalfvan" />

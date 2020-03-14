@@ -152,7 +152,7 @@
         {
             "id": "https://twoandahalfvan.github.io/van-tour/",
             "url": "https://twoandahalfvan.github.io/van-tour/",
-            "title": "Van Tour without frills!",
+            "title": "No-frills van tour",
             "summary": "How to describe our camper build? I guess not a thousand words could describe what a short video tour does. So here you have it: a video van tour of our&hellip;",
             "content_html": "<p><strong>How to describe our camper build? I guess not a thousand words could describe what a short video tour does. So here you have it: a video van tour of our converted Citroen Jumper. With a high roof, long body and extended wheelbase (L4H3) there is plenty to see.</strong> </p>\n<p>Our van tour on our <a href=\"youtube.com/twoandahlafvan\">YouTube channel twoandahalfvan</a>:</p>\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Uh5xXAoELaY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"allowfullscreen\" ></iframe></p>\n<p>This build took us about ten months of hard work, tears and a lot of laughter. What is not in the video: the intense planning that went ahead. Please check out our <a href=\"../../../../../planning\">planning process and 3D model</a>. This helped us a lot to visualize and to grasp the whole project. </p>",
             "image": "https://twoandahalfvan.github.io/media/posts/3/Untitled.jpg",
@@ -163,7 +163,7 @@
                    "Vanlife"
             ],
             "date_published": "2020-02-18T11:49:00+00:00",
-            "date_modified": "2020-03-14T20:55:19+00:00"
+            "date_modified": "2020-03-14T22:19:06+00:00"
         }
     ]
 }
