@@ -1809,6 +1809,11 @@ main {
   margin-top: 20px;
 }
 
+.feed__image img {
+  height: 300px;
+  object-fit: cover;
+}
+
 .featured_posts {
   display: grid;
   grid-gap: 0;
@@ -1849,8 +1854,6 @@ article.post:focus, article.post:hover, article.post:hover {
 }
 a.post {
   padding: 1rem;
-  border-left: 1px solid #eee;
-  border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
 a.post:hover, .post:focus, .post:hover {
@@ -1914,4 +1917,51 @@ a.post .feed__item__excerpt {
 
 ::placeholder {
   color: #c4d0cc;
+}
+
+.ac {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.ac > .ac-q {
+  padding: 20px;
+  margin: 0;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  font-size: 1rem;
+  text-transform: none;
+}
+.ac > .ac-q::after {
+  content: '+';
+  text-align: center;
+  width: 15px;
+  right: 10px;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: absolute;
+}
+.ac > .ac-a {
+  overflow: hidden;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+.ac > .ac-a p {
+  margin: 0;
+  padding: 20px;
+}
+.ac.js-enabled > .ac-a {
+  visibility: hidden;
+}
+.ac.is-active > .ac-a {
+  visibility: visible;
+}
+.ac.is-active > .ac-q::after {
+  content: '\2013';
+}
+.ac>.ac-q:focus, .ac>.ac-q:active, .ac>.ac-q:hover {
+  outline: none;
 }
