@@ -142,6 +142,8 @@ h3,
 h4,
 h5,
 h6 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   color: #17181E;
   font-weight: 700;
   -webkit-hyphens: manual;
@@ -812,7 +814,7 @@ main {
   .navbar .has-submenu:focus > .navbar__submenu,
   .navbar .has-submenu:hover > .navbar__submenu {
     left: 0;
-    width: 100%;
+    min-width: 100%;
     opacity: 1;
     z-index: 1000;
     -webkit-transform: scale(1);
@@ -1152,7 +1154,7 @@ main {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
-    padding: 2rem;
+    padding: 0 2rem 2rem 2rem;
     z-index: 2; }
       .hero__content h1 > sup {
         font-size: 1.06667rem;
@@ -1205,6 +1207,9 @@ main {
   margin-bottom: calc(-1.41667rem - 1vw); }
 
 .feed__author {
+  line-height: 1.7rem;
+  height: 1.7rem;
+  padding-right: .56667rem;
   font-weight: 700; }
 
 .feed__date {
@@ -1609,6 +1614,12 @@ main {
     margin-left: 1.13333rem; }
   .pagination svg {
     fill: #747577; }
+
+.post__related {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;  
+}
 
 /* Footer ------------------------ */
 .footer {

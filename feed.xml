@@ -3,34 +3,67 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.github.io/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.github.io" />
-    <updated>2020-03-17T22:36:06+00:00</updated>
+    <updated>2020-03-19T20:24:33+00:00</updated>
     <author>
         <name>Judith</name>
     </author>
     <id>https://twoandahalfvan.github.io</id>
 
     <entry>
-        <title>Open Layout</title>
+        <title>Building a minimal shower</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.github.io/how-to-build-a-minimal-shower/"/>
+        <id>https://twoandahalfvan.github.io/how-to-build-a-minimal-shower/</id>
+
+        <updated>2020-03-19T20:08:28+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.github.io/media/posts/22/shower-curtain.JPG" alt="" />
+                    The idea behind our shower is simple. What is the minimal amount of space that you need in order to comfortably get clean in a van? There are many different&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.github.io/media/posts/22/shower-curtain.JPG" alt="" />
+                <p>The idea behind our shower is simple. <em>What is the minimal amount of space that you need in order to comfortably get clean in a van?</em> There are many different answers to this problem. We chose to build a <strong>waist high shower box</strong> that serves as storage for dirty laundry and as an extension of our kitchen countertop when the shower is not in use, which is... 99% of the time. We feel like this way we don't waste any space for the little amount of time that we actually spend showering.</p>
+<p>Our shower box is 70cm wide, 60cm deep and about 70cm tall. We <strong>raised the bottom</strong> of the shower box about 20cm in order to make room for water pipes, wires and air pipes, so that the top of our shower box aligns with the rest of the kitchen countertop. The box is lightly wider than it is deep in order to take into accocunt the curved walls of the van. You may need to adjust these measurements to your situation.</p>
+<p>The first step was to cut five pieces of 15mm lightweight plywood to the desired dimensions. We then <strong>routered grooves</strong> into the plywood for the magnets that will ensure that the shower curtain does not cling to you body when the hot steam of the shower rises to the top. After that, we built the basic box with screws and glue using clamps and custom made 90 degree helpers.</p>
+<p><img class="post__image" src="https://twoandahalfvan.github.io/media/posts/22/build-a-box-small.jpg" alt="" width="500" height="583"></p>
+<p>The next step was to make the box as water tight as possible by applying some sort of primer and multiple layers of a liquid waterproofing membrane. For the edges, we used the additional reinforcements that came with the <strong>waterproofing kit</strong>, which also includes a manual.</p>
+<p><img class="post__image align-left" src="https://twoandahalfvan.github.io/media/posts/22/waterproof2.jpg" alt="" width="500" height="560"></p>
+<p>After that we ordered a <strong>custom size shower tub</strong> that comes with a drainage outlet and siphon. This piece of hardware is built according to your dimensions and preferences. Make sure to measure accurately, as you want it to fit inside the box without any gaps. Alternatively, you can order this first and build your box around this, which should make it a little easier.</p>
+<p><img class="post__image" src="https://twoandahalfvan.github.io/media/posts/22/add-a-shower-tub.small.jpg" alt="" width="500" height="665"></p>
+<p>After that we <strong>inserted the magnets</strong> into the grooves that we had previously routered and then we glued four 1.5mm <strong>stainless steel sheets</strong> to the inner walls of the box. Finally, we <strong>siliconed all the edges</strong> in order to prevent any water from leaking. If any water manages to find it's way through the cracks, the liquid waterproofing membrane should prevent it from getting into the wood.</p>
+<p><img class="post__image" src="https://twoandahalfvan.github.io/media/posts/22/side-walls.jpg" alt="" width="500" height="465"></p>
+<p>Finally, the <strong>shower curtain</strong> was modified to include some magnets in the correct positions (matching the magnets in the shower box and in the wood ceiling) and it was also shortened so that it only covers the necessary parts.</p>
+<p><img class="post__image" src="https://twoandahalfvan.github.io/media/posts/22/IMG_3434.jpeg" alt="" width="500" height="665"></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>3D Model</title>
         <author>
             <name>Judith</name>
         </author>
         <link href="https://twoandahalfvan.github.io/our-layout/"/>
         <id>https://twoandahalfvan.github.io/our-layout/</id>
 
-        <updated>2020-03-17T22:32:45+00:00</updated>
+        <updated>2020-03-19T18:12:48+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/21/Jumper-FINAL-FINAL-for-EXPORT.png" alt="" />
-                     You might need to click the model and wait a little before you can interact with it. Enjoy. If you want to That being said, we have modelled our&hellip;
+                    Before building our van, we planned the layout in Sketchup Make. This was a very important step for us, as we wanted to have a full size lengthwise bed and&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://twoandahalfvan.github.io/media/posts/21/Jumper-FINAL-FINAL-for-EXPORT.png" alt="" />
-                <p><iframe width="580" height="326" src="https://3dwarehouse.sketchup.com/embed/a645e56d-ffdb-4e38-8299-3afbe6f0b9c9" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="allowfullscreen"></iframe></p>
-<p>You might need to click the model and wait a little before you can interact with it. Enjoy.</p>
-<p>If you want to</p>
-<p>That being said, we have modelled our van in 3D with <a href="https://download.cnet.com/SketchUp-Make-2017/3000-6677_4-10257337.html" target="_blank" rel="noopener noreferrer">Sketchup Make</a> and you can download <a href="https://3dwarehouse.sketchup.com/model/a645e56d-ffdb-4e38-8299-3afbe6f0b9c9/Van-Model">our model</a> for free from the <a href="https://3dwarehouse.sketchup.com/">Sketchup 3D Warehouse</a></p>
+                <p>Before building our van, we planned the layout in <a href="https://download.cnet.com/SketchUp-Make-2017/3000-6677_4-10257337.html" target="_blank" rel="noopener noreferrer">Sketchup Make</a>. This was a very important step for us, as we wanted to have a full size lengthwise bed and side by side seating, even in the winter. Also the shower and the toilet were a must have. After many iterations, we finally found the perfect solution for our needs and we are very happy that we implemented this somewhat unconventional layout.</p>
+<p>If you are currently planning your own van, have a look at our article about <a href="https://twoandahalfvan.github.io/planning-your-layout/">how to plan your layout</a> or checkout our 3D model below for free. You might need to click the model and wait a little before you can interact with it. </p>
+<p><iframe width="580" height="326" src="https://3dwarehouse.sketchup.com/embed/a645e56d-ffdb-4e38-8299-3afbe6f0b9c9" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>You can also download <a href="https://3dwarehouse.sketchup.com/model/a645e56d-ffdb-4e38-8299-3afbe6f0b9c9/Van-Model">our model</a> directly from the <a href="https://3dwarehouse.sketchup.com/">Sketchup 3D Warehouse</a>.</p>
             ]]>
         </content>
     </entry>
@@ -43,7 +76,7 @@
         <id>https://twoandahalfvan.github.io/standardized-boxes-2/</id>
             <category term="Shopping List"/>
 
-        <updated>2020-03-17T22:04:43+00:00</updated>
+        <updated>2020-03-19T18:33:41+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/20/261575_1.png" alt="" />
@@ -144,7 +177,7 @@
         <id>https://twoandahalfvan.github.io/choosing-the-right-van/</id>
             <category term="Van Build Tips"/>
 
-        <updated>2020-03-17T22:12:07+00:00</updated>
+        <updated>2020-03-19T18:33:34+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/17/facelifted-citroen-jumper-breaks-cover-video-photo-gallery_9.png" alt="Choosing the right van" />
@@ -156,8 +189,14 @@
                     <img src="https://twoandahalfvan.github.io/media/posts/17/facelifted-citroen-jumper-breaks-cover-video-photo-gallery_9.png" alt="Choosing the right van" />
                 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <p>Choosing the right van is a crucial step when planning to build your own mobile home.</p>
-<p>This post will give you an overview of what's available in the <strong>EU market</strong>. We will focus on <strong>panel vans</strong> only and ignore any other potential vehicle types, such as <strong>box trucks, family vans </strong>or<strong> buses</strong>. Maybe we'll do a vehicle class comparison in the future, but for now we'll stick to panel vans with a <strong>3.5 ton limit</strong> or less, as this is a magical number that many do not want to exceed for various different reasons.</p>
-<br> <img src="https://images.unsplash.com/photo-1535655685871-dc8158ff167e?ixlib=rb-1.2.1&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=800&amp;fit=crop&amp;ixid=eyJhcHBfaWQiOjExNzczfQ"> <br><center>Photo by <a href="https://unsplash.com/@fachymarin?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Fachy Marín</a> / <a href="https://unsplash.com/?utm_source=ghost&amp;utm_medium=referral&amp;utm_campaign=api-credit">Unsplash</a></center><br>
+<p>This post will give you an overview of what's available in the <strong>EU market</strong>. We will focus on <strong>panel vans</strong> only and ignore any other potential vehicle types, such as <strong>box trucks, family vans </strong>or<strong> buses</strong>. Maybe we'll do a comparison of different vehicle typesin the future, but for now we'll stick to panel vans with a <strong>3.5 ton limit</strong> or less, as this is a magical number that many do not want to exceed for various different reasons, such as:</p>
+<ul>
+<li>can be driven by andybody with a regular driving license</li>
+<li>many bridges and roads are restricted for vehicles above 3.5 tons</li>
+<li>tolls and ferries are cheapier than for heavier vehicles</li>
+<li>less weight means better fuel economy</li>
+</ul>
+<br>
 <h2 id="popularpanelvans">Popular Panel Vans</h2>
 <p>There are a couple of different panel vans available in Europe. We will consider the most popular ones, since they are readily available on the used car market.</p>
 <ul>
@@ -173,9 +212,7 @@
 <p>Similarly, the Mercedes Sprinter and VW Crafter used to share the same basis. However, recent models are built in separate factories, so we will compare them individually.</p>
 <h2 id="basicfeatures">Basic features</h2>
 <p>All details as of Q1 2019.</p>
-<br>
 <div id="basic_features"> </div>
-<br>
 <h2 id="mcetoc_1e3id688b0">Size matters</h2>
 <p>The following lists width, height, length and volume of the<strong> <em>cargo area</em></strong> of popular panel van models, subdivided in L(x)H(x) notation (e.g. L1H1 for Length 1, Height 1).<br> Dimensions are in millimeters, volume in square meters.<br> All dimensions for the two wheel drive version. The four wheel drive versions can have significanlty smaller cargo areas because of the additional space requirements for the mechanics under the vehicle.<br> All details as of Q1 2019.</p>
 <br>
@@ -248,7 +285,6 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
       }
 // ]]></script>
 <p>As you can see from the above chart, the Sevel family gives you the best <strong>length-to-volume ratio</strong>, the Daily has the highest overall cargo capacity. The Sevel family is also known to have the least curvy walls, meaning you have more space in the upper part of the van, which gives you more headspace.</p>
-<br>
 <h2 id="otherfactors">Other factors</h2>
 <p>There are other factors when deciding for a specific van, such as <strong>price</strong>, <strong>availability</strong>, <strong>perceived build quality</strong>, <strong>availability of spare parts</strong>, <strong>repairability</strong>, <strong>cost of ownership</strong> etc. which we will not discuss here but should nonetheless be considered when buying a van.</p>
 <p>When it comes to the engine type, Europeans currently don't have a choice. None of the listed panel vans can be ordered with a gas engine, which means that pretty much all the vans you see within Europe run with on <strong>diesel</strong>. While some panel vans can be ordered with an <strong><em>electric motor</em></strong>, there are a number of drawbacks that need to be considered. Apart from the often mentioned<strong> <em>range anxiety</em></strong>, the <em><strong>lack of charging infrastructure</strong></em>, the <strong><em>hefty price tag</em></strong> (roughly 70.000 for an Iveco Daily Electric), there is a more fundamental problem. The weight of the batteries simply does not allow for such a van to be properly converted to a camper van under the 3.5 ton limit. Currently, electric vans are simply <strong>too heavy</strong>.</p>
@@ -396,31 +432,6 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
 <p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/388QYI2">https://amzn.to/388QYI2</a></p>
 <p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/32vXYgQ">https://amzn.to/32vXYgQ</a></p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Water Tank</title>
-        <author>
-            <name>Judith</name>
-        </author>
-        <link href="https://twoandahalfvan.github.io/water-tank/"/>
-        <id>https://twoandahalfvan.github.io/water-tank/</id>
-            <category term="Shopping List"/>
-
-        <updated>2020-03-17T21:57:39+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://twoandahalfvan.github.io/media/posts/5/62200_0.png" alt="van watertank " />
-                    This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://twoandahalfvan.github.io/media/posts/5/62200_0.png" alt="van watertank " />
-                <p>This space saving 90 litre water tank fits above the right wheel well of any Fiat Ducato, Citroen Jumper, Peugeot Boxer or Ram Promaster built after 2006. Not sure if it fits other vans too. It comes with several prefabricated holes and connections: Two maintenance lids on the top, one inlet and one outlet. The outlet is 26mm pipe that is molded on the bottom of the tank, so you must drill a hole in your van and attach a ball valve on the outside.  </p>
-<p>Unfortunately, it seems to be only available in Europe.</p>
-<p>EU: <a href="https://www.campingwagner.de/product_info.php/info/p62200_Frischwassertank-fuer-Vans--90l.html">https://www.campingwagner.de/product_info.php/info/p62200_Frischwassertank-fuer-Vans--90l.html</a></p>
             ]]>
         </content>
     </entry>
