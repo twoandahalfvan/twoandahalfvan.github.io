@@ -2001,3 +2001,15 @@ a.post .feed__item__excerpt {
 .post article header h3 {
   padding-top: 0;
 }
+.instagram_header{
+  padding-bottom: 1rem;
+}
+.instagram_header svg{
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 0 0.85rem;
+  opacity: 0.6;
+  -webkit-transition: all 0.12s linear 0s;
+  -o-transition: all 0.12s linear 0s;
+  transition: all 0.12s linear 0s;
+}

@@ -19,7 +19,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet">
         <style>h1,h2,h3,h4,h5,h6,.btn,[type=button],[type=submit],button,.navbar .navbar__menu li,.navbar_mobile_sidebar .navbar__menu li,.feed__author,.post__tag,.post__share>a span,.post__nav-link>span,.footer{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}body,h1,.h1,blockquote,.search__input,.author__name,.author__info>p,.feed__item h2,.post__nav-link{font-family:'Ubuntu',sans-serif}</style>
-        <link rel="stylesheet" href="https://twoandahalfvan.github.io/assets/css/style.css?v=2ed4532017d8751095db3b85102f703a">
+        <link rel="stylesheet" href="https://twoandahalfvan.github.io/assets/css/style.css?v=18ea124e687a9f6f8c7c9afc18f84551">
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"twoandahalfvan","logo":"https://twoandahalfvan.github.io/media/website/logo-transparent-mit-rand-512px.png","url":"https://twoandahalfvan.github.io/","sameAs":["https://www.instagram.com/twoandahalfvan/","https://www.pinterest.de/twoandahalfvan/","https://www.youtube.com/twoandahalfvan/"]}</script>
             <script src="https://twoandahalfvan.github.io/assets/js/ls.parent-fit.min.js?v=1c78585e2a70398fe95085061942fd37"></script>
             <script async src="https://twoandahalfvan.github.io/assets/js/lazysizes.min.js?v=149ff45fc6c2f13e892e438a58abb77f"></script>          
@@ -352,6 +352,12 @@
                           </div>
                       </article>
                   </a>         </div>
+         <div class="posts_header instagram_header">
+            <svg>
+               <use xlink:href="https://twoandahalfvan.github.io/assets/svg/svg-map.svg#instagram"/>
+            </svg>
+            <div>@twoandahalfvan</div>
+         </div>
          <div id="instagram"></div>
    </main>
    <script src="https://twoandahalfvan.github.io/assets/js/InstagramFeed.min.js?v=8f5fa1e7c3a0f2a5e74ffe86ba0dcd61"></script>
@@ -360,8 +366,8 @@
         new InstagramFeed({
             'username': 'twoandahalfvan',
             'container': document.getElementById("instagram"),
-            'display_profile': true,
-            'display_biography': true,
+            'display_profile': false,
+            'display_biography': false,
             'display_gallery': true,
             'callback': null,
             'styling': true,
