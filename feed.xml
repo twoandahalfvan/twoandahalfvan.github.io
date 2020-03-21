@@ -3,7 +3,7 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.github.io/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.github.io" />
-    <updated>2020-03-19T20:24:33+00:00</updated>
+    <updated>2020-03-21T13:53:53+00:00</updated>
     <author>
         <name>Judith</name>
     </author>
@@ -50,7 +50,7 @@
         <link href="https://twoandahalfvan.github.io/our-layout/"/>
         <id>https://twoandahalfvan.github.io/our-layout/</id>
 
-        <updated>2020-03-19T18:12:48+00:00</updated>
+        <updated>2020-03-20T08:13:01+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/21/Jumper-FINAL-FINAL-for-EXPORT.png" alt="" />
@@ -76,7 +76,7 @@
         <id>https://twoandahalfvan.github.io/standardized-boxes-2/</id>
             <category term="Shopping List"/>
 
-        <updated>2020-03-19T18:33:41+00:00</updated>
+        <updated>2020-03-20T11:24:32+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/20/261575_1.png" alt="" />
@@ -93,7 +93,7 @@
         </content>
     </entry>
     <entry>
-        <title>DIY Lithium battery</title>
+        <title>DIY Lithium battery - Part I</title>
         <author>
             <name>Judith</name>
         </author>
@@ -101,7 +101,7 @@
         <id>https://twoandahalfvan.github.io/diy-lithium-battery/</id>
             <category term="Van Build Tips"/>
 
-        <updated>2020-03-17T22:03:58+00:00</updated>
+        <updated>2020-03-20T08:12:48+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/18/IMG_7628.JPG" alt="" />
@@ -113,8 +113,7 @@
                     <img src="https://twoandahalfvan.github.io/media/posts/18/IMG_7628.JPG" alt="" />
                 <p class="content">Building your own 12V Lithium battery can save you a couple of thousand € when compared to ready-to-buy Lithium batteries. However, it can be a daunting task if you have never done it before. In this post we will describe some basics you need to know before you can build your own 12V Lithium battery.</p>
 <div class="content">
-<h2 id="warning">WARNING</h2>
-<p class="msg msg--warning">Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity.<br> If you are unsure if you meet these requirements, please buy a ready-to-use battery or consult a qualified electrician.</p>
+<p class="msg msg--warning"><span class="warning-header">WARNING</span><br>Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity.<br> If you are unsure if you meet these requirements, please buy a ready-to-use battery or consult a qualified electrician.</p>
 <p> </p>
 <iframe width="580" height="326" src="https://3dwarehouse.sketchup.com/embed/16bf9dab-7cc0-42db-a042-a9535bba4d33" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="allowfullscreen"></iframe>
 <p>Let's start with some basic terminology:</p>
@@ -129,11 +128,14 @@
 <li>Relays</li>
 <li>Hystersis</li>
 </ul>
-<p>Lets start with the BMS. The task of a BMS is to protect a battery and to make sure that it operates within the specifications of the battery cell manufacturer. While you can operate some kind of batteries without a BMS, you should never operate a Lithium battery without a BMS. A BMS can also contain some additional features, such as a <strong>State of Charge</strong> detection ("how much juice is left?"), but its core function is to protect the battery from unwanted conditions, such as OVP and UVP and unsupported temperatures.</p>
+<h3 id="mcetoc_1e3rffe680">BMS and SoC</h3>
+<p>Lets start with the <strong>BMS</strong>. The task of a BMS is to protect a battery and to make sure that it operates within the specifications of the battery cell manufacturer. While you can operate some kind of batteries without a BMS, you should never operate a Lithium battery without a BMS. A BMS can also contain some additional features, such as a <strong>State of Charge</strong> detection ("how much juice is left?"), but its core function is to protect the battery from unwanted conditions, such as OVP and UVP and unsupported temperatures.</p>
 <p>Lithium batteries operate within a voltage range. A Lithium battery with a nominal voltage of 12V has an actual voltage of approximately 14,4V when fully charged and about 11V when it is empty. Now, these values are not static or fixed, some people like to charge their Lithium batteries up to 14,6V. This is often a topic of debate, because Lithium batteries tend to have a longer lifespan (measured in charge cycles) when they are not constantly fully charged or fully emptied. In fact, Lithium batteries have a significantly longer life expectation when they are operated around the 50% SoC.</p>
+<h2 id="mcetoc_1e3rffe680">On the matter of voltage</h2>
 <p>Most 12V appliances can operate within the voltage range that a 12V nominal voltage battery provides. However, some 12V appliances may not work correctly when the system voltage is too low or too high, in which case you could add DC-DC converter, which will regulate the system voltage to constant 12V at the expense of a certain efficiency rate (such as 96%).</p>
 <p>When you buy a charger for your battery, you must ensure that it is compatible with your battery in terms of the type of chemistry and system voltage. You should never use a lead acid battery charger on a lithium battery and vice versa, because these chargers have different cutoff voltages and charging methods or algorithms. A charging method or algorithm determines how a battery is charged over time.</p>
 <p>In order to protect the Lithium battery cells from being over charged, we need <strong>Over Voltage Protection</strong> (OVP). Similarly, we need <strong>Under Voltage Protection</strong> (UVP), sometimes also referred to as Low Voltage Protection (LVP) to protect the cells from being discharged beyond it's specifications. If you charge or discharge your battery without OVP and UVP, you can permanently damage the cells, which may cause them to be unusable.</p>
+<h2 id="mcetoc_1e3rffe680">Battery cells - the building blocks of your battery</h2>
 <p>Now, every battery is made up of individual <strong>cells</strong> that are usually wired together in series. In the case of a 12V LiFePo4 battery, each of the four cells that are necessary to create a working battery may have a voltage of 3,6V when the complete battery is fully charged (4 cells * 3,6V = 14,4V). However, in reality, these cells are likely not to have the same voltage. They are more likely to diverge slightly, as their chemical properties may differ slightly and change over time. Here is an example of what your cells voltage might look like if it is 100% charged.</p>
 <table>
 <thead>
@@ -162,6 +164,7 @@
 </tbody>
 </table>
 <p>Because every cell has slightly different chemical characteristics, some cells may be fully charged before other cells. In order to still reach the 14,4V, the charger keeps charging. If the fully charged cell continues to charge, it would be overcharged and thus damaged. It is the task of so called <strong>cell balancers</strong> to make sure that individual cells are charged equally. These balancers are typically electric components that are mounted directly on top of the individual cell terminals. Balancing can be done by actively routing the charging current to the cells that needs it ("active balancing") or by simply converting the superfluous charging current to heat by means of a simple resistor (which may require a heat dissipation device, such as a fan or heat sink).</p>
+<h2 id="mcetoc_1e3rffe680">Relays and Hysteresis</h2>
 <p>Cell balancers may also measure the voltage of the cell they are mounted to and signal an over voltage or under voltage to an upstream device called "<strong>relay</strong>". You can think of a relay as a remotely controlled switch, that switches an electrical connection based on the information it gets. For instance, if one cell balancer singals an under voltage situation to the relay input of a 230V inverter, the inverter may switch it's electrical connection to the battery off. Relays exist in various form factors.</p>
 <p>Last but not least, a <strong>hysteresis</strong> function helps to detect temporary low or high voltage situations. For instance, a coffee machine has a very high electrical demand when it brews, causing a high dip in system voltage for a very short amount of time. In it's simplest form, a hysteresis function requires a certain amount of time to pass before it signals under voltage. Some systems have multiple OVP or LVP functions, allowing for instance a voltage level of 11,2V to exist for 30 seconds, but cutting off directly at 11V.</p>
 </div>
@@ -300,33 +303,33 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <id>https://twoandahalfvan.github.io/how-we-fell-in-love-with-valencia-in-january/</id>
             <category term="Spain"/>
 
-        <updated>2020-03-17T18:33:06+00:00</updated>
+        <updated>2020-03-20T11:18:19+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
-                    On our way to escape winter in Germany we made it quickly through France, passed Barcelona and wanted to be as far away from upcoming snow as possible - winter was&hellip;
+                    On our way to escape winter in Germany we made it quickly through France and wanted to be as far south as possible - winter was coming. However, Spain enticed with springlike&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <img src="https://twoandahalfvan.github.io/media/posts/11/Valencia-Map.JPG" alt="" />
-                <p><strong>On our way to escape winter in Germany we made it quickly through France, passed Barcelona and wanted to be as far away from upcoming snow as possible - winter was coming. However, Valencia happened to be on the way. And we stayed for a little bit longer to fall in love with this city - even though storm Gloria hit us. </strong></p>
+                <p><strong>On our way to escape winter in Germany we made it quickly through France and wanted to be as far south as possible - winter was coming. However, Spain enticed with springlike sun and beautiful coastlines. Also, Valencia happened to be on the way. And we stayed for a little bit longer to fall in love with this city - even though storm Gloria hit us. </strong></p>
 <p id="mcetoc_1e2hb67iq0">Valencia is Spain's third biggest city - after Madrid and Bareclona -, and it is the capital of the region as well as of the autonomous community also named Valencia (Spain and its <em>municipios</em>, <em>provincias</em> and <em>comunidades autonomas</em>...). It is located in the <em>Levante, la costa levantina, </em>which refers to Spain's east and the location on the Spanish Mediterranean coast.</p>
-<h2 id="mcetoc_1e28o2ut80">Slow and spacious Valencia</h2>
+<h2 id="mcetoc_1e28o2ut80">Slow and spacious</h2>
 <p>Even though around 800.000 people live in this beautiful city, it just does not feel crowded, let alone jammed with cars. In the city center or on shopping streets, we felt like we had enough air to breathe and space to stop for enjoyable rests. Nobody pushed us around while strolling slowly. It was not overcrowded with tourists although it definitely has the potential. Is this only due to off-season?</p>
-<p>What is more: When you need a different scenery, you have perfect conditions. Stunning mountains and hikes in the backyard and a huge stretch of beach in its frontyard give you many possibilities to stretch your legs. </p>
+<p>What is more: When you need a different scenery, you have perfect conditions. Stunning mountains, natural parks and hikes in the backyard and a huge stretch of beach in its frontyard give you many possibilities to stretch your legs. </p>
 <h2 id="mcetoc_1e28p6rsu1">Bike-friendly Valencia</h2>
 <p>Talking about stretching your legs: Valencians ride two-wheelers, bikes or e-scooters. No wonder, because Valencia really is perfect to explore by bike. According to Wikipedia the city offers 108 km of bike lanes and EuroVelo, the network of cycling routes across Europe, passes through Valencia as well. Since we love riding bikes, we knew how we wanted to get through the city. Luckily, travelling in a camper also means you have everything you need with you. That is true for our bikes as well. </p>
 <p>How was the biking experience? After you identify the bike lanes and get to know the street grid a little bit better, you manage just perfectly. Bigger streets offer seperate bike lanes in grass green. Smaller ones are directly labled as bike roads: cars where only allowed to drive 30km/h and are advised to pay attention to byciclists. Be aware: If there is a seperate bike lane, even when it is on the other side of the road (one bike lane often offers both directions), make sure to use it. Otherwise, cars might honk at you. </p>
 <p>If you don't have your bike with you, no problem. There are plenty of bike rental shops in Valencia. Even better: Try Valenbisi (as in: Valencia bicicleta Sí!) with several stations across the city. Park and ride, ride and park - the better hop-on-hop-off service if you ask me. You can reach all the sights the city has to offer, and even the ones a little bit farer away. </p>
-<h2 id="mcetoc_1e28q27en2">What sights to see in Valencia?</h2>
+<h2 id="mcetoc_1e28q27en2">What to see in Valencia?</h2>
 <ol>
 <li>Definitely all the green there is, especially the park in the former Turia river, that went through Valencia: <strong>El Jardín del Turia</strong>. The "Turia garden" in the center stretches all the way from the Parque de Cabecera and Bioparc down to the Port of Valencia. Grab your bike and enjoy the ride under impressive bridges along orange trees and flowers. It is beautiful and sets the stage for outdoor activities like jogging, playing football/soccer or dancing. Even with all the bridges crossing the park it is hard to imagine that this park has been a river before. And it is even harder to imagine that after the big flood in 1957, government officials wanted to convert this area into more space for cars and roads. But luckily, <em>valencians </em>demanded to convert it into green space for the city. </li>
-<li>When you ride or stroll along the Jardin del Turia in direction of the port, you won't miss it: la <i>Ciutat de les Arts i les Ciències, </i>the <strong>City of Arts and Sciences. </strong>(Is it just me or does it sound as if it where a place of GOT?) This cultural and architectural area is stunning, even if you won't go inside any of the buildings.<img class="post__image post__image--center" src="https://twoandahalfvan.github.io/media/posts/11/valencia-science.jpg" alt="" width="1000" height="4032"></li>
+<li>When you ride or stroll along the Jardin del Turia in direction of the port, you won't miss it: la <i>Ciutat de les Arts i les Ciències, </i>the <strong>City of Arts and Sciences. </strong>(Is it just me or does it sound as if it where a place of GOT?) This cultural and architectural area is stunning, even if you won't go inside any of the buildings.<img class="post__image" src="https://twoandahalfvan.github.io/media/posts/11/valencia-science.jpg" width="1000" height="4032"></li>
 <li>You really feel a metropolitan and lively but releaxed Valencian atmosphere when hopping through <strong>cafés and shops in Russafa/Ruzafa</strong>. The neighbourhood has a lot of character and is best explored by foot or bike. Just take your time, stroll through the streets and quiet your sweet cravings at places like the <em>Dulce de Leche Boutique</em>, a coffee shop in Carrer del Pintor Gisbert, with some vegan options - despite the name. </li>
-<li>Another barrio to see is <strong>El Carmen</strong> with all its street art, tapas bars and culture. <img class="post__image post__image--center" src="https://twoandahalfvan.github.io/media/posts/11/valencia-el-carmen.jpg" alt="" width="1000" height="4032"></li>
-<li>If you have some spare time and a bike, go further until <strong>Port Sa Platja. </strong>Firstly, you will ride along the beautiful beachside boardwalk. Secondly, Port Sa Platja really feels like little Venice and impresses with colorful buidlings. <br><img class="post__image post__image--center" src="https://twoandahalfvan.github.io/media/posts/11/valencia-port.jpg" width="628" height="628"></li>
-<li>Last but not least: Enjoy the beach of course :). </li>
+<li>Another barrio to see is <strong>El Carmen</strong> with all its street art, tapas bars and culture. If you are vegan and in need of coffee you want to visit <em>Almalibre Açaí House Valencia</em> in Carrer de Roteros 16. <img class="post__image" src="https://twoandahalfvan.github.io/media/posts/11/valencia-el-carmen.jpg" width="1000" height="4032"></li>
+<li>If you have some spare time and a bike, go further until <strong>Port Sa Platja. </strong>Firstly, you will ride along the beautiful beachside boardwalk. Secondly, Port Sa Platja really feels like little Venice and impresses with colorful buidlings. </li>
+<li>Last but not least: Enjoy the beach of course. :) </li>
 </ol>
             ]]>
         </content>
