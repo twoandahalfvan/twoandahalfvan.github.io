@@ -1839,7 +1839,7 @@ main {
   display: grid;
   grid-gap: 0;
   grid-template-columns: repeat(1, [col] 1fr ) ;
-  background-color: #b6aeab;
+  background-color: #d4bbb2;
   align-items: center;
 }
 .featured_posts:hover, .featured_posts:active, .featured_posts:visited {
