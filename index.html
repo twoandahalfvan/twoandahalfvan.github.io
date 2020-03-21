@@ -19,7 +19,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
         <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&amp;subset=latin-ext&amp;display=swap" rel="stylesheet">
         <style>h1,h2,h3,h4,h5,h6,.btn,[type=button],[type=submit],button,.navbar .navbar__menu li,.navbar_mobile_sidebar .navbar__menu li,.feed__author,.post__tag,.post__share>a span,.post__nav-link>span,.footer{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"}body,h1,.h1,blockquote,.search__input,.author__name,.author__info>p,.feed__item h2,.post__nav-link{font-family:'Ubuntu',sans-serif}</style>
-        <link rel="stylesheet" href="https://twoandahalfvan.eu/assets/css/style.css?v=18ea124e687a9f6f8c7c9afc18f84551">
+        <link rel="stylesheet" href="https://twoandahalfvan.eu/assets/css/style.css?v=69ef5f14c579fcc998998243d791d444">
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"twoandahalfvan","logo":"https://twoandahalfvan.eu/media/website/logo-transparent-mit-rand-512px.png","url":"https://twoandahalfvan.eu/","sameAs":["https://www.instagram.com/twoandahalfvan/","https://www.pinterest.de/twoandahalfvan/","https://www.youtube.com/twoandahalfvan/"]}</script>
             <script src="https://twoandahalfvan.eu/assets/js/ls.parent-fit.min.js?v=1c78585e2a70398fe95085061942fd37"></script>
             <script async src="https://twoandahalfvan.eu/assets/js/lazysizes.min.js?v=149ff45fc6c2f13e892e438a58abb77f"></script>          
@@ -401,7 +401,7 @@
         </div>
         <div class="footer__copyright">
             <p>© twoandahalfvan 2020</p>
-<p><a href="../../../../../imprint">Imprint</a> - <a href="../../../../../data-privacy">Data Privacy</a></p>
+<p><a href="../../../../../imprint">Imprint</a> - <a href="../../../../../privacy-policy">Privacy Policy</a> - <a href="../../../../../affiliate-disclosure">Affiliate Disclosure</a></p>
         </div>
        <button class="footer__bttop js-footer__bttop" aria-label="Back to top"> 
            <svg>
@@ -429,5 +429,116 @@
    </script>
 
 
+        <div class="cookie-popup js-cookie-popup  cookie-popup--uses-badge">
+            <h2>This website may use cookies</h2>
+            
+            <p>
+                Our website may set cookies for certain functionality.
+                <a href="https://twoandahalfvan.eu/privacy-policy/">
+                    Privacy Policy
+                </a>
+            </p>
+
+            <form>
+                
+                <input
+                    id="gdpr-necessary"
+                    name="gdpr-necessary"
+                    checked="checked"
+                    disabled="disabled"
+                    type="checkbox">
+                <label for="gdpr-necessary">
+                    Required
+                </label>
+
+                <p class="cookie-popup__save-wrapper">
+                    <button type="submit" class="cookie-popup__save">
+                        OK
+                    </button>
+                </p>
+            </form>
+
+            <span class="cookie-popup-label">Cookie Policy</span>
+        </div>
+        <script>
+            (function() {
+                function addScript (src, inline) {
+                    var newScript = document.createElement('script');
+
+                    if (src) {
+                        newScript.setAttribute('src', src);
+                    }
+
+                    if (inline) {
+                        newScript.text = inline;
+                    }
+
+                    document.body.appendChild(newScript);
+                }
+
+                var popup = document.querySelector('.js-cookie-popup');
+                var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                var save = popup.querySelector('button');
+                var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                
+
+                popup.addEventListener('click', function() {
+                    if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    }
+                });
+
+                save.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    popup.classList.remove('cookie-popup--is-sticky');
+                    var allowedGroups = [];
+
+                    for (var i = 0; i < checkboxes.length; i++) {
+                        if (checkboxes[i].checked) {
+                            var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+
+                            allowedGroups.push(groupName);
+                        }
+                    }
+
+                    localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                    popup.classList.remove('cookie-popup--is-sticky');
+
+                    setTimeout(function () {
+                        if (currentConfig !== null) {
+                            window.location.reload();
+                        }
+                    }, 250);
+                });
+
+                if (currentConfig === null) {
+                    popup.classList.add('cookie-popup--is-sticky');
+                } else {
+                    if (currentConfig !== '') {
+                        var allowedGroups = currentConfig.split(',');
+
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                }
+            })();
+        </script>
 </body>
 </html>
