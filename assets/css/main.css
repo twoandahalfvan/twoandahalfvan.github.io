@@ -128,8 +128,8 @@ dl {
 blockquote,
 figure,
 hr {
-  margin-top: calc(1.7rem + 1vw);
-  margin-bottom: calc(1.7rem + 1vw); }
+  margin-top: 1rem;
+  margin-bottom: 0; }
 
 pre,
 table {
