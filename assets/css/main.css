@@ -1537,6 +1537,7 @@ main {
     margin-top: calc(2.55rem + 1vw); }
 
 .author__avatar {
+  margin-top: 1em;
   border-radius: 50%;
   height: 10rem; }
 

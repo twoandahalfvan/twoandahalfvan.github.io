@@ -3,12 +3,36 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.eu/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.eu" />
-    <updated>2020-03-24T08:12:16+00:00</updated>
+    <updated>2020-03-24T16:42:00+00:00</updated>
     <author>
         <name>Judith</name>
     </author>
     <id>https://twoandahalfvan.eu</id>
 
+    <entry>
+        <title>Our itinery</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.eu/map-our-itinery/"/>
+        <id>https://twoandahalfvan.eu/map-our-itinery/</id>
+            <category term="Travel Stories"/>
+
+        <updated>2020-03-24T16:41:17+00:00</updated>
+            <summary>
+                <![CDATA[
+                    Follow our itinery through Europe on this OpenStreetMap: See full screen Please do not take the pin points as exact campsite locations. This is just to roughly show you our itinery&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="align-center">Follow our itinery through Europe on this OpenStreetMap:</p>
+<p><iframe width="100%" height="500px" frameborder="0" allowfullscreen="allowfullscreen" src="https://umap.openstreetmap.fr/en/map/twoandahalfvan-europe-tour_435297?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false"></iframe></p>
+<p><a href="//umap.openstreetmap.fr/en/map/twoandahalfvan-europe-tour_435297">See full screen</a></p>
+<p class="msg msg--info">Please do not take the pin points as exact campsite locations. This is just to roughly show you our itinery and what countries we have seen so far. It is not updated daily.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Building a minimal shower</title>
         <author>
@@ -17,7 +41,7 @@
         <link href="https://twoandahalfvan.eu/how-to-build-a-minimal-shower/"/>
         <id>https://twoandahalfvan.eu/how-to-build-a-minimal-shower/</id>
 
-        <updated>2020-03-23T19:45:57+00:00</updated>
+        <updated>2020-03-24T14:52:01+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.eu/media/posts/22/shower-curtain.JPG" alt="" />
@@ -28,6 +52,7 @@
             <![CDATA[
                     <img src="https://twoandahalfvan.eu/media/posts/22/shower-curtain.JPG" alt="" />
                 <p>The idea behind our shower is simple. <em>What is the minimal amount of space that you need in order to comfortably get clean in a van?</em> There are many different answers to this problem. We chose to build a <strong>waist high shower box</strong> that serves as storage for dirty laundry and as an extension of our kitchen countertop when the shower is not in use, which is... 99% of the time. We feel like this way we don't waste any space for the little amount of time that we actually spend showering.</p>
+<p class="msg msg--info"><strong>Disclosure:</strong> Some links may be affiliate links and if you go through them to make a purchase we will earn a commission<strong> </strong>– at no extra cost to you.</p>
 <p>Our shower box is 70cm wide, 60cm deep and about 70cm tall. We <strong>raised the bottom</strong> of the shower box about 20cm in order to make room for water pipes, wires and air pipes, so that the top of our shower box aligns with the rest of the kitchen countertop, which sits at about 90cm. The raised bottom also helps in getting in and out of the shower, because you don't need to raise your leg that high. The box is slightly wider than it is deep in order to take into accocunt the curved walls of the van. You may need to adjust these measurements to your situation.</p>
 <p>The first step was to <strong>cut the bottom and side pieces</strong> out of 15mm lightweight plywood to the desired dimensions. We then <strong>routered grooves</strong> into the plywood for the <strong>magnets </strong>(<a href="https://amzn.to/2J5Naxb" target="_blank" rel="noopener noreferrer">Amazon.com</a> | <a href="https://amzn.to/39cZAOp" target="_blank" rel="noopener noreferrer">Amazon.de</a>) that will ensure that the shower curtain does not cling to your body when the hot steam of the shower rises to the top. After that, we assembled the basic box with screws and wood glue using clamps and custom made 90 degree helpers.</p>
 <p><img class="post__image" src="https://twoandahalfvan.eu/media/posts/22/build-a-box-small.jpg" alt="" width="500" height="583"></p>
@@ -302,9 +327,10 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         </author>
         <link href="https://twoandahalfvan.eu/how-we-fell-in-love-with-valencia-in-january/"/>
         <id>https://twoandahalfvan.eu/how-we-fell-in-love-with-valencia-in-january/</id>
+            <category term="Travel Stories"/>
             <category term="Spain"/>
 
-        <updated>2020-03-21T16:11:55+00:00</updated>
+        <updated>2020-03-24T16:38:38+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.eu/media/posts/11/Valencia-Map.JPG" alt="" />
@@ -345,7 +371,7 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
         <id>https://twoandahalfvan.eu/slideout-fridge/</id>
             <category term="Shopping List"/>
 
-        <updated>2020-03-17T22:09:35+00:00</updated>
+        <updated>2020-03-24T14:54:32+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.eu/media/posts/9/1078_TB41-3.png" alt="" />
@@ -356,6 +382,7 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
             <![CDATA[
                     <img src="https://twoandahalfvan.eu/media/posts/9/1078_TB41-3.png" alt="" />
                 <p>We use a top loading fridge that uses a 12V compressor. The top loading helps on keeping the cold air inside the fridge when it is opened. The 12V compressor is currently the most energy efficient method for reliable cooling in all temperatures. The compressor in the fridge that we have used is the exact same model as the one that is used in a more popular model that you see in a lot of van conversions. There are two key differences between these two models: Insulation and price. The model we use is slightly less well insulated and cheaper. If you are planning on installing solar in your van, then there is always enough power for a 12V fridge when it is hot, so the weaker insulation actually becomes an advantage: Less wasted space and weight.</p>
+<p class="msg msg--info"><strong>Disclosure:</strong> These links are affiliate links and if you go through them to make a purchase we will earn a commission<strong> </strong>– at no extra cost to you.</p>
 <p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2HY3orA">https://amzn.to/2HY3orA</a></p>
 <p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2w81faj">https://amzn.to/2w81faj</a></p>
             ]]>
@@ -410,32 +437,6 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
 <p>You will need additional 1.5mm thick stainless steel sheets for the walls of the shower. You can source these sheets from your local metal shop.</p>
 <p>If you need more info on how to build this type of shower, take a look at our article on [how to build a space saving shower]</p>
 <p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://shop.versandmetall.de/de/wohnmobil-zubehoer/edelstahl-duschwannen-duschtassen-fuer-wohnmobile/">https://shop.versandmetall.de/de/wohnmobil-zubehoer/edelstahl-duschwannen-duschtassen-fuer-wohnmobile/</a></p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Garage Slideout</title>
-        <author>
-            <name>Judith</name>
-        </author>
-        <link href="https://twoandahalfvan.eu/standardized-boxes/"/>
-        <id>https://twoandahalfvan.eu/standardized-boxes/</id>
-            <category term="Shopping List"/>
-
-        <updated>2020-03-17T22:08:43+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://twoandahalfvan.eu/media/posts/6/Untitled.png" alt="" />
-                    For the garage slideout, we use heavy duty full extension slides. These slides are meant for heavy loads and unlike the [drawer and fridge slides] they do not have a&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://twoandahalfvan.eu/media/posts/6/Untitled.png" alt="" />
-                <p><span style="font-family: -apple-system, BlinkMacSystemFont, Arial, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: inherit;">For the garage slideout, we use heavy duty full extension slides. These slides are meant for heavy loads and unlike the [drawer and fridge slides] they do not have a self retracting or soft closing mechanism but a locking function, that keeps them in place while driving.</span></p>
-<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/388QYI2">https://amzn.to/388QYI2</a></p>
-<p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/32vXYgQ">https://amzn.to/32vXYgQ</a></p>
 <p> </p>
             ]]>
         </content>
