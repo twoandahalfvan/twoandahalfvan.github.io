@@ -3,12 +3,54 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.eu/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.eu" />
-    <updated>2020-03-24T16:42:00+00:00</updated>
+    <updated>2020-03-25T22:05:43+00:00</updated>
     <author>
         <name>Judith</name>
     </author>
     <id>https://twoandahalfvan.eu</id>
 
+    <entry>
+        <title>How to secure your van</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.eu/how-to-secure-your-van/"/>
+        <id>https://twoandahalfvan.eu/how-to-secure-your-van/</id>
+
+        <updated>2020-03-25T21:41:31+00:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.eu/media/posts/26/featured-image-van-security.jpg" alt="" />
+                    We spent a lot of time thinking about the security of our van. It is important for us to feel safe both inside the vehicle and when we are enjoying the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.eu/media/posts/26/featured-image-van-security.jpg" alt="" />
+                <p>We spent a lot of time thinking about the security of our van. It is important for us to feel safe both inside the vehicle and when we are enjoying the outdoors. We figured that it is worth spending a bit more on this subject because the van will be our home for the near future and we don't want anybody entering our home or worse, stealing it entirely.</p>
+<p>The vehicle specific tips in the video should work for any of the following vans built after 2006:</p>
+<ul>
+<li>Fiat Ducato</li>
+<li>Citroen Jumper or Citroen Relay</li>
+<li>Peugeot Boxer</li>
+<li>Ram Promaster</li>
+</ul>
+<p><iframe width="640" height="360" src="https://www.youtube.com/embed/NG1JEfuxaBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" ></iframe></p>
+<p>We have paid for all products that you see in the video and we are not associated with any of the vendors. We only recommend what we like. Some of the links below may be affiliate links.</p>
+<ul>
+<li>prick stop for driver door - <a href="https://www.womo-tuning.de/shop/einbruchsicherungen/fahrer-beifahrert%C3%BCr/" target="_blank" rel="noopener noreferrer">womo-tuning.de</a></li>
+<li>prick stop and interior lock for rear door - <a href="https://www.womo-tuning.de/" target="_blank" rel="noopener noreferrer">womo-tuning.de</a></li>
+<li>heosafe (<a href="https://amzn.to/33MSm2z" target="_blank" rel="noopener noreferrer">Amazon.com</a> | <a href="https://amzn.to/2WJCP28" target="_blank" rel="noopener noreferrer">Amazon.de</a>)</li>
+<li>round padlock (<a href="https://amzn.to/2Ul5I34" target="_blank" rel="noopener noreferrer">Amazon.com</a> | <a href="https://amzn.to/2Ugd1c5" target="_blank" rel="noopener noreferrer">Amazon.de</a>)</li>
+<li>drill bit set - <em>others did not work for hole in the rail</em> (<a href="https://amzn.to/3drtEJn" target="_blank" rel="noopener noreferrer">Amazon.com</a> | <a href="https://amzn.to/33LNQRI" target="_blank" rel="noopener noreferrer">Amazon.de</a>)</li>
+<li><a href="https://www.fts-hennig.de/antennen/fahrzeugantennen/lte-gps-magnethaftantenne.html" target="_blank" rel="noopener noreferrer">GPS antenna</a></li>
+<li>mobile hotspot with GPS and LTE (<a href="https://amzn.to/2WJ72y0" target="_blank" rel="noopener noreferrer">Amazon.com</a> | <a href="https://amzn.to/2JgZEC4" target="_blank" rel="noopener noreferrer">Amazon.de</a>)</li>
+<li>camera with motion detection</li>
+<li>secure remote control replacement (<a href="https://amzn.to/33JCRZ8" target="_blank" rel="noopener noreferrer">Amazon.com</a> | <a href="https://amzn.to/3ajQWih" target="_blank" rel="noopener noreferrer">Amazon.de</a>)</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Our itinery</title>
         <author>
@@ -18,14 +60,16 @@
         <id>https://twoandahalfvan.eu/map-our-itinery/</id>
             <category term="Travel Stories"/>
 
-        <updated>2020-03-24T16:41:17+00:00</updated>
+        <updated>2020-03-24T17:02:52+00:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://twoandahalfvan.eu/media/posts/25/itinery-europe.png" alt="" />
                     Follow our itinery through Europe on this OpenStreetMap: See full screen Please do not take the pin points as exact campsite locations. This is just to roughly show you our itinery&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://twoandahalfvan.eu/media/posts/25/itinery-europe.png" alt="" />
                 <p class="align-center">Follow our itinery through Europe on this OpenStreetMap:</p>
 <p><iframe width="100%" height="500px" frameborder="0" allowfullscreen="allowfullscreen" src="https://umap.openstreetmap.fr/en/map/twoandahalfvan-europe-tour_435297?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false"></iframe></p>
 <p><a href="//umap.openstreetmap.fr/en/map/twoandahalfvan-europe-tour_435297">See full screen</a></p>
@@ -330,7 +374,7 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
             <category term="Travel Stories"/>
             <category term="Spain"/>
 
-        <updated>2020-03-24T16:38:38+00:00</updated>
+        <updated>2020-03-24T16:54:10+00:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.eu/media/posts/11/Valencia-Map.JPG" alt="" />
@@ -348,16 +392,16 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
 <h2 id="mcetoc_1e28p6rsu1">Bike-friendly Valencia</h2>
 <p>Talking about stretching your legs: Valencians ride two-wheelers, bikes or e-scooters. No wonder, because Valencia really is perfect to explore by bike. According to Wikipedia the city offers 108 km of bike lanes and EuroVelo, the network of cycling routes across Europe, passes through Valencia as well. Since we love riding bikes, we knew how we wanted to get through the city. Luckily, travelling in a camper also means you have everything you need with you. That is true for our bikes as well. </p>
 <p><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-bike.JPG" alt="Valencia by bike" width="2000" height="2000"></p>
-<p>How was the biking experience? After you identify the bike lanes and get to know the street grid a little bit better, you manage just perfectly. Bigger streets offer seperate bike lanes in grass green. Smaller ones are directly labled as bike roads: cars where only allowed to drive 30km/h and are advised to pay attention to byciclists. Be aware: If there is a seperate bike lane, even when it is on the other side of the road (one bike lane often offers both directions), make sure to use it. Otherwise, cars might honk at you. </p>
-<p>If you don't have your bike with you, no problem. There are plenty of bike rental shops in Valencia. Even better: Try Valenbisi (as in: Valencia bicicleta Sí!) with several stations across the city. Park and ride, ride and park - the better hop-on-hop-off service if you ask me. You can reach all the sights the city has to offer, and even the ones a little bit farer away. </p>
+<p>How was the biking experience? After you identify the bike lanes and get to know the street grid a little bit better, you manage just perfectly. Bigger streets offer seperate bike lanes in grass green. Smaller ones are directly labled as bike roads: cars are only allowed to drive 30km/h and are advised to pay attention to byciclists. Be aware: If there is a seperate bike lane, even when it is on the other side of the road (one bike lane often offers both directions), make sure to use it. Otherwise, cars might honk at you. </p>
+<p>If you don't have your bike with you, no problem. There are plenty of bike rental shops in Valencia. Even better: Try Valenbisi (as in: Valencia bicicleta Sí!) with several stations across the city. Park and ride, ride and park - the better hop-on-hop-off service if you ask me. You can reach all the sights the city has to offer, and even the ones a bit further away. </p>
 <h2 id="mcetoc_1e28q27en2">What to see in Valencia?</h2>
 <ol>
-<li>Definitely all the green there is, especially the park in the former Turia river, that went through Valencia: <strong>El Jardín del Turia</strong>. The "Turia garden" in the center stretches all the way from the Parque de Cabecera and Bioparc down to the Port of Valencia. Grab your bike and enjoy the ride under impressive bridges along orange trees and flowers. It is beautiful and sets the stage for outdoor activities like jogging, playing football/soccer or dancing. Even with all the bridges crossing the park it is hard to imagine that this park has been a river before. And it is even harder to imagine that after the big flood in 1957, government officials wanted to convert this area into more space for cars and roads. But luckily, <em>valencians </em>demanded to convert it into green space for the city. </li>
-<li>When you ride or stroll along the Jardin del Turia in direction of the port, you won't miss it: la <i>Ciutat de les Arts i les Ciències, </i>the <strong>City of Arts and Sciences. </strong>(Is it just me or does it sound as if it where a place of GOT?) This cultural and architectural area is stunning, even if you won't go inside any of the buildings.<br><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-art-science.jpg" alt="Valencia" width="2000" height="4000"></li>
+<li>Definitely all the green there is, especially the park in the former Turia river, that went through Valencia: <strong>El Jardín del Turia</strong>. The "Turia garden" in the center stretches all the way from the <em>Parque de Cabecera and Bioparc</em> down to the port of Valencia. Grab your bike and enjoy the ride under impressive bridges along orange trees and flowers. It is beautiful and sets the stage for outdoor activities like jogging, playing soccer or dancing. Even with all the bridges crossing the park it is hard to imagine that this park has been a river before. And it is even harder to imagine that after the big flood in 1957, government officials wanted to convert this area into more space for cars and roads. But luckily, <em>valencians </em>demanded to convert it into green space for the city. </li>
+<li>When you ride or stroll along the Jardin del Turia in direction of the port, you won't miss it: la <i>Ciutat de les Arts i les Ciències, </i>the <strong>City of Arts and Sciences. </strong>(Is it just me or does it sound as if it were a place of GOT?) This cultural and architectural area is stunning, even if you don't go inside any of the buildings.<br><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-art-science.jpg" alt="Valencia" width="2000" height="4000"></li>
 <li>You really feel a metropolitan and lively but releaxed Valencian atmosphere when hopping through <strong>cafés and shops in Russafa/Ruzafa</strong>. The neighbourhood has a lot of character and is best explored by foot or bike. Just take your time, stroll through the streets and quiet your sweet cravings at places like the <em>Dulce de Leche Boutique</em>, a coffee shop in Carrer del Pintor Gisbert, with some vegan options - despite the name. </li>
-<li>Another barrio to see is <strong>El Carmen</strong> with all its street art, tapas bars and culture. If you are vegan and in need of coffee you want to visit <em>Almalibre Açaí House Valencia</em> in Carrer de Roteros 16. <br><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-el-carmen.jpg" alt="Valencia El Carmen" width="1000" height="2000"></li>
-<li>If you have some spare time and a bike, go further until <strong>Port Sa Platja. </strong>Firstly, you will ride along the beautiful beachside boardwalk. Secondly, Port Sa Platja really feels like little Venice and impresses with colorful buidlings.<br><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-port.jpg" alt="Valencia" width="2000" height="2000"></li>
-<li>Last but not least: Enjoy the beach of course. :) </li>
+<li>Another barrio to see is <strong>El Carmen</strong> with all its street art, tapas bars and culture. If you are a vegan and in need of coffee you want to visit <em>Almalibre Açaí House Valencia</em> in Carrer de Roteros 16. <br><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-el-carmen.jpg" alt="Valencia El Carmen" width="1000" height="2000"></li>
+<li>If you have some spare time and a bike, go further until <strong>Port Sa Platja. </strong>Firstly, you will ride along the beautiful beachside boardwalk. And secondly, Port Sa Platja really feels like little Venice and impresses with colorful buidlings.<br><img class="post__image" src="https://twoandahalfvan.eu/media/posts/11/valencia-port.jpg" alt="Valencia" width="2000" height="2000"></li>
+<li>Last but not least: Enjoy the beach of course :) </li>
 </ol>
             ]]>
         </content>
@@ -411,33 +455,6 @@ google.charts.load('current', {'packages':['table'], language: 'en'});
 <p>Make sure to order the right length!</p>
 <p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2T2GPIG">https://amzn.to/2T2GPIG</a></p>
 <p>USA: <a rel="nofollow noopener noreferrer" target="_blank" href="https://amzn.to/2Tk8uUp">https://amzn.to/2Tk8uUp</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Shower tub</title>
-        <author>
-            <name>Judith</name>
-        </author>
-        <link href="https://twoandahalfvan.eu/individual-sized-shower-tub/"/>
-        <id>https://twoandahalfvan.eu/individual-sized-shower-tub/</id>
-            <category term="Shopping List"/>
-
-        <updated>2020-03-17T22:02:28+00:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://twoandahalfvan.eu/media/posts/7/versandmetall-edelstahl-duschwanne-duschtasse-15mm.png" alt="van shower" />
-                    This 1.5mm thick stainless steel shower tub is built according to your dimensions, which mean it will take a while. You can specify the number and position of the drainage&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://twoandahalfvan.eu/media/posts/7/versandmetall-edelstahl-duschwanne-duschtasse-15mm.png" alt="van shower" />
-                <p>This 1.5mm thick stainless steel shower tub is built according to your dimensions, which mean it will take a while. You can specify the number and position of the drainage points.</p>
-<p>You will need additional 1.5mm thick stainless steel sheets for the walls of the shower. You can source these sheets from your local metal shop.</p>
-<p>If you need more info on how to build this type of shower, take a look at our article on [how to build a space saving shower]</p>
-<p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://shop.versandmetall.de/de/wohnmobil-zubehoer/edelstahl-duschwannen-duschtassen-fuer-wohnmobile/">https://shop.versandmetall.de/de/wohnmobil-zubehoer/edelstahl-duschwannen-duschtassen-fuer-wohnmobile/</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
