@@ -31,7 +31,7 @@
             "title": "Our itinery",
             "summary": "Follow our itinery through Europe on this OpenStreetMap: See full screen Please do not take the pin points as exact campsite locations. This is just to roughly show you our itinery&hellip;",
             "content_html": "<p class=\"align-center\">Follow our itinery through Europe on this OpenStreetMap:</p>\n<p><iframe width=\"100%\" height=\"500px\" frameborder=\"0\" allowfullscreen=\"allowfullscreen\" src=\"https://umap.openstreetmap.fr/en/map/twoandahalfvan-europe-tour_435297?scaleControl=false&amp;miniMap=false&amp;scrollWheelZoom=false&amp;zoomControl=true&amp;allowEdit=false&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=undefined&amp;captionBar=false\"></iframe></p>\n<p><a href=\"//umap.openstreetmap.fr/en/map/twoandahalfvan-europe-tour_435297\">See full screen</a></p>\n<p class=\"msg msg--info\">Please do not take the pin points as exact campsite locations. This is just to roughly show you our itinery and what countries we have seen so far. It is not updated daily.</p>",
-            "image": "https://twoandahalfvan.eu/media/posts/25/itinery-europe.png",
+            "image": "https://twoandahalfvan.eu/media/posts/25/MAP.jpg",
             "author": {
                 "name": "Judith"
             },
@@ -39,7 +39,7 @@
                    "Travel Stories"
             ],
             "date_published": "2020-03-24T16:23:33+00:00",
-            "date_modified": "2020-03-24T17:02:52+00:00"
+            "date_modified": "2020-03-26T11:01:59+00:00"
         },
         {
             "id": "https://twoandahalfvan.eu/how-to-build-a-minimal-shower/",
