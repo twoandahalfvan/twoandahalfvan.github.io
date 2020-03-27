@@ -54,6 +54,47 @@
             <script async src="https://twoandahalfvan.eu/assets/js/lazysizes.min.js?v=149ff45fc6c2f13e892e438a58abb77f"></script>          
         
         
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                if (!localStorage.getItem('publii-gdpr-allowed-cookies')){
+                    document.getElementsByClassName('cookie-popup')[0].style.padding = '0 2rem 2rem 2rem';
+                    let saveBtn = document.getElementsByClassName('cookie-popup__save')[0];
+                    saveBtn.style.backgroundColor = '#ccc';
+                    let saveAllBtn = document.createElement("BUTTON");
+                    saveAllBtn.innerHTML = "Allow All";
+                    saveAllBtn.onclick = (event) => {
+                        let checkboxes = document.querySelectorAll('input[type=checkbox]');
+                        checkboxes.forEach((cb) => {
+                            cb.checked = true;
+                        })
+                        saveBtn.click();
+                        document.getElementsByClassName('cookie-popup')[0].style.display = 'none';
+                        let script = document.createElement('script');
+                        script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-161992053-1';
+                        script.onload = () => {
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+
+                            gtag('config', 'UA-161992053-1');
+                        }
+                        document.head.append(script);
+                        event.preventDefault();
+                        return false;
+                    };
+                    document.getElementsByClassName('cookie-popup__save-wrapper')[0].insertBefore(saveAllBtn, saveBtn);
+                }
+            });
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script type="gdpr-blocker/analytical" async src="https://www.googletagmanager.com/gtag/js?id=UA-161992053-1"></script>
+        <script type="gdpr-blocker/analytical"}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-161992053-1');
+        </script>
     </head>
     <body>
         <div class="site-container">
@@ -276,12 +317,12 @@
                                       <div class="feed__image">
                                           <img
                                           class="lazyload"
-                                              data-src="https://twoandahalfvan.eu/media/posts/26/featured-image-van-security.jpg"
-                                          data-srcset="https://twoandahalfvan.eu/media/posts/26/responsive/featured-image-van-security-xs.jpg 300w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured-image-van-security-sm.jpg 480w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured-image-van-security-md.jpg 768w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured-image-van-security-lg.jpg 1024w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured-image-van-security-xl.jpg 1360w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured-image-van-security-2xl.jpg 1600w"
-                                          data-aspectratio="1.9393939393939394"
+                                              data-src="https://twoandahalfvan.eu/media/posts/26/featured_vansec.jpg"
+                                          data-srcset="https://twoandahalfvan.eu/media/posts/26/responsive/featured_vansec-xs.jpg 300w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured_vansec-sm.jpg 480w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured_vansec-md.jpg 768w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured_vansec-lg.jpg 1024w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured_vansec-xl.jpg 1360w ,https://twoandahalfvan.eu/media/posts/26/responsive/featured_vansec-2xl.jpg 1600w"
+                                          data-aspectratio="1.7976501305483028"
                                           data-sizes="auto"
-                                          height="1386"
-                                          width="2688"
+                                          height="1532"
+                                          width="2754"
                                           alt="">
                                       </div>
                           <div class="feed__item__excerpt">
@@ -477,10 +518,10 @@
 
 
         <div class="cookie-popup js-cookie-popup  cookie-popup--uses-badge">
-            <h2>This website may use cookies</h2>
+            <h2>This website uses cookies</h2>
             
             <p>
-                Our website may set cookies for certain functionality.
+                This website uses cookies for certain functionality.
                 <a href="https://twoandahalfvan.eu/privacy-policy/">
                     Privacy Policy
                 </a>
@@ -495,12 +536,19 @@
                     disabled="disabled"
                     type="checkbox">
                 <label for="gdpr-necessary">
-                    Required
+                    Necessary
                 </label>
+            <input
+                id="gdpr-analytical"
+                name="gdpr-analytical"
+                type="checkbox">
+            <label for="gdpr-analytical">
+                Analytical
+            </label>
 
                 <p class="cookie-popup__save-wrapper">
                     <button type="submit" class="cookie-popup__save">
-                        OK
+                        Allow Selected
                     </button>
                 </p>
             </form>
