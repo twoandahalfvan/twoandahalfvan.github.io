@@ -3,7 +3,7 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.eu/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.eu" />
-    <updated>2020-04-24T17:59:51+01:00</updated>
+    <updated>2020-04-24T18:05:24+01:00</updated>
     <author>
         <name>Judith</name>
     </author>
@@ -16,8 +16,10 @@
         </author>
         <link href="https://twoandahalfvan.eu/van-roadtrip-through-andalucia/"/>
         <id>https://twoandahalfvan.eu/van-roadtrip-through-andalucia/</id>
+            <category term="Travel Stories"/>
+            <category term="Spain"/>
 
-        <updated>2020-04-24T17:59:44+01:00</updated>
+        <updated>2020-04-24T18:04:54+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.eu/media/posts/28/Ronda.jpg" alt="Ronda Roadtrip Andalucia" />
