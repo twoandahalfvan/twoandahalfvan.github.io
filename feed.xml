@@ -3,7 +3,7 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.eu/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.eu" />
-    <updated>2020-05-04T20:24:02+01:00</updated>
+    <updated>2020-05-06T10:38:46+01:00</updated>
     <author>
         <name>Judith</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://twoandahalfvan.eu/solar-setup/"/>
         <id>https://twoandahalfvan.eu/solar-setup/</id>
 
-        <updated>2020-05-04T20:23:10+01:00</updated>
+        <updated>2020-05-06T10:38:12+01:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://twoandahalfvan.eu/media/posts/29/solar-setup.jpg" alt="" />
@@ -48,8 +48,8 @@
 <p><img class="post__image" src="https://twoandahalfvan.eu/media/posts/29/camphoto_1483920592.jpg" alt="" width="3024" height="4032"></p>
 <p>After dry fitting everything together, think about how you want to connect your solar panels. We have four solar panels and we chose to wire them together in series and then in parallel, giving us the benefits of both worlds. Wiring in series means that the solar panels reach the minium charging voltage that the solar charge controller needs in order to start working early in the day. Amazingly, the solar charge controller starts working even before the sun goes up due to the reflections in the atmoshpere. Wiring all four solar panels in series would not have improved this any further, because once the voltage threshhold is reached, charging begins. Therefore we wired the two serial "panel pairs" together in parallel, so that we only loose half of our charging power if one of our solar panels is shadowed.</p>
 <p><img class="post__image" src="https://twoandahalfvan.eu/media/posts/29/solar-verkabelung.jpg" alt="" width="4032" height="2151"></p>
-<p>After the preparation it is time for the installation. Make sure to clean your roof thouroughly, using alcohol or another suitable cleaner. Dry fit your aluminium profiles and add your solar panels. Mark the position of the solar panels with marking tape. Remove the solar panels and aluminium profiles. If your constructions glue requires a primer, use a primer. If not, directly add the glue to the roof. Stick on your aluminium profiles on both sides of the vehicle. Remove the marking tape and immediately add the solar panels. This is necessary so that the glue is distributed evenly (the roof has a curvature, which the glue needs to even out). Make sure to connect all cables before fixing all panels in position with the machine screws and spring washers.</p>
-<p>Lastly, if you do not distinguish charging and discharging circuits (most installations don't), wire in a kill switch into the positive line going to the solar charge controller. This allows you to disable your electric setup in case of troubleshooting. Otherwise, you may have electricity in your circuits even if your battery kill switch is activated. Also remember to use appropiately sized wires from the solar charge controller to the battery, as the solar charge controller typically decreases the voltage from the solar panels to the 12V voltage of the battery bank, therefore requiring a larger wire diameter. Also wire in a fuse in accordance with the manual of the solar charge controller that you use.</p>
+<p>After the preparation it is time for the installation. Make sure to clean your roof thouroughly, using alcohol or another suitable cleaner. Dry fit your aluminium profiles and add your solar panels. Mark the position of the aluminium profiles with marking tape. Remove the solar panels and aluminium profiles. If your construction glue requires a primer, use a primer. If not, directly add the glue to the roof. Stick on your aluminium profiles on both sides of the vehicle. Remove the marking tape and immediately add the solar panels. This is necessary so that the glue is distributed evenly (the roof has a curvature, which the glue needs to even out). Make sure to connect all cables before fixing all panels in position with the machine screws and spring washers.</p>
+<p>Lastly, if you do not distinguish charging and discharging circuits (most installations don't), wire in a kill switch into the positive line going to the solar charge controller. This allows you to disable your electric setup in case of troubleshooting. Otherwise, you may have electricity in your circuits even if your battery kill switch is activated. Also remember to use appropiately sized wires from the solar charge controller to the battery, as the solar charge controller typically decreases the voltage from the solar panels to the nominal 12V voltage of the battery bank, therefore requiring a larger wire diameter. Also wire in a fuse in accordance with the manual of the solar charge controller that you use.</p>
             ]]>
         </content>
     </entry>
