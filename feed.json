@@ -11,6 +11,22 @@
     },
     "items": [
         {
+            "id": "https://twoandahalfvan.eu/inverter-charger/",
+            "url": "https://twoandahalfvan.eu/inverter-charger/",
+            "title": "Inverter Charger",
+            "summary": "For our 230V needs we use a 2000W pure sine wave inverter that doubles as a 20A charger. The inverter has enough power for all of our 230V devices, like&hellip;",
+            "content_html": "<p>For our 230V needs we use a 2000W pure sine wave inverter that doubles as a 20A charger. The inverter has enough power for all of our 230V devices, like our induction cooktop, our electrical boiler. The charger is meant as a backup in case the solar panels do not produce enough energy, which has happened once while we were still building the van.</p>\n<p>DACH: <a href=\"https://www.youtube.com/watch?v=Zk11vI-7czE\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon.de</a></p>\n<p>USA: <a href=\"https://amzn.to/2WVUJ1c\" target=\"_blank\" rel=\"noopener noreferrer\">Amazon.com</a></p>\n<p> </p>",
+            "image": "https://twoandahalfvan.eu/media/posts/30/71VSuVC1RjL._AC_SL1200_.jpg",
+            "author": {
+                "name": "Judith"
+            },
+            "tags": [
+                   "Shopping List"
+            ],
+            "date_published": "2020-05-24T20:37:09+02:00",
+            "date_modified": "2020-05-24T20:37:46+02:00"
+        },
+        {
             "id": "https://twoandahalfvan.eu/solar-setup/",
             "url": "https://twoandahalfvan.eu/solar-setup/",
             "title": "Solar Setup",
@@ -22,8 +38,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-05-04T19:33:02+01:00",
-            "date_modified": "2020-05-06T10:38:12+01:00"
+            "date_published": "2020-05-04T20:33:02+02:00",
+            "date_modified": "2020-05-06T11:38:12+02:00"
         },
         {
             "id": "https://twoandahalfvan.eu/van-roadtrip-through-andalucia/",
@@ -39,8 +55,8 @@
                    "Travel Stories",
                    "Spain"
             ],
-            "date_published": "2020-04-24T12:04:30+01:00",
-            "date_modified": "2020-04-24T18:04:54+01:00"
+            "date_published": "2020-04-24T13:04:30+02:00",
+            "date_modified": "2020-04-24T19:04:54+02:00"
         },
         {
             "id": "https://twoandahalfvan.eu/how-to-secure-your-van/",
@@ -54,8 +70,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-03-25T19:16:26+00:00",
-            "date_modified": "2020-03-26T17:12:52+00:00"
+            "date_published": "2020-03-25T20:16:26+01:00",
+            "date_modified": "2020-03-26T18:12:52+01:00"
         },
         {
             "id": "https://twoandahalfvan.eu/map-our-itinery/",
@@ -70,8 +86,8 @@
             "tags": [
                    "Travel Stories"
             ],
-            "date_published": "2020-03-24T16:23:33+00:00",
-            "date_modified": "2020-03-30T17:53:34+01:00"
+            "date_published": "2020-03-24T17:23:33+01:00",
+            "date_modified": "2020-03-30T18:53:34+02:00"
         },
         {
             "id": "https://twoandahalfvan.eu/how-to-build-a-minimal-shower/",
@@ -85,8 +101,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-03-19T18:58:18+00:00",
-            "date_modified": "2020-03-24T14:52:01+00:00"
+            "date_published": "2020-03-19T19:58:18+01:00",
+            "date_modified": "2020-03-24T15:52:01+01:00"
         },
         {
             "id": "https://twoandahalfvan.eu/our-layout/",
@@ -100,8 +116,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-03-17T22:18:18+00:00",
-            "date_modified": "2020-03-20T08:13:01+00:00"
+            "date_published": "2020-03-17T23:18:18+01:00",
+            "date_modified": "2020-03-20T09:13:01+01:00"
         },
         {
             "id": "https://twoandahalfvan.eu/standardized-boxes-2/",
@@ -116,8 +132,8 @@
             "tags": [
                    "Shopping List"
             ],
-            "date_published": "2020-03-17T21:43:26+00:00",
-            "date_modified": "2020-03-20T11:24:32+00:00"
+            "date_published": "2020-03-17T22:43:26+01:00",
+            "date_modified": "2020-03-20T12:24:32+01:00"
         },
         {
             "id": "https://twoandahalfvan.eu/diy-lithium-battery/",
@@ -132,8 +148,8 @@
             "tags": [
                    "Van Build Tips"
             ],
-            "date_published": "2020-03-14T16:01:23+00:00",
-            "date_modified": "2020-03-30T17:55:47+01:00"
+            "date_published": "2020-03-14T17:01:23+01:00",
+            "date_modified": "2020-03-30T18:55:47+02:00"
         },
         {
             "id": "https://twoandahalfvan.eu/choosing-the-right-van/",
@@ -148,25 +164,8 @@
             "tags": [
                    "Van Build Tips"
             ],
-            "date_published": "2020-03-14T15:42:07+00:00",
-            "date_modified": "2020-03-19T18:33:34+00:00"
-        },
-        {
-            "id": "https://twoandahalfvan.eu/how-we-fell-in-love-with-valencia-in-january/",
-            "url": "https://twoandahalfvan.eu/how-we-fell-in-love-with-valencia-in-january/",
-            "title": "Falling in love with Valencia",
-            "summary": "On our way to escape winter in Germany we made it quickly through France and wanted to reach southern Spain as fast as possible - winter was coming. However, Spain's north already&hellip;",
-            "content_html": "<p><strong>On our way to escape winter in Germany we made it quickly through France and wanted to reach southern Spain as fast as possible - winter was coming. However, Spain's north already enticed with springlike sun and beautiful coastlines. Also, Valencia happened to be on the way south. And we stayed for a little bit longer to fall in love with this city. </strong></p>\n<p id=\"mcetoc_1e2hb67iq0\">Valencia is Spain's third biggest city - after Madrid and Bareclona - and it is the capital of the region as well as of the autonomous community also named Valencia (Spain and its <em>municipios</em>, <em>provincias</em> and <em>comunidades autonomas</em>...). It is located in the <em>Levante, la costa levantina, </em>which refers to Spain's east and the location on the Spanish Mediterranean coast. Let me tell you: Despite the beautiful location and its size it still offers quite a calm atmosphere.</p>\n<h2 id=\"mcetoc_1e28o2ut80\">Slow and spacious</h2>\n<p>So, even though around 800.000 people live in this beautiful city, it just does not feel crowded, let alone jammed with cars. In the city center or on shopping streets, we felt like we had enough air to breathe and space to stop for enjoyable rests. Nobody pushed us around while strolling slowly. It was not overcrowded with tourists although it definitely has the potential. Is this only due to off-season?</p>\n<p>What is more: When you need a different scenery, you have perfect conditions. Stunning mountains, natural parks and hikes in the backyard and a huge stretch of beach in its frontyard give you many possibilities to stretch your legs. </p>\n<h2 id=\"mcetoc_1e28p6rsu1\">Bike-friendly Valencia</h2>\n<p>Talking about stretching your legs: Valencians ride two-wheelers, bikes or e-scooters. No wonder, because Valencia really is perfect to explore by bike. According to Wikipedia the city offers 108 km of bike lanes and EuroVelo, the network of cycling routes across Europe, passes through Valencia as well. Since we love riding bikes, we knew how we wanted to get through the city. Luckily, travelling in a camper also means you have everything you need with you. That is true for our bikes as well. </p>\n<p><img class=\"post__image\" src=\"https://twoandahalfvan.eu/media/posts/11/valencia-bike.JPG\" alt=\"Valencia by bike\" width=\"2000\" height=\"2000\"></p>\n<p>How was the biking experience? After you identify the bike lanes and get to know the street grid a little bit better, you manage just perfectly. Bigger streets offer seperate bike lanes in grass green. Smaller ones are directly labled as bike roads: cars are only allowed to drive 30km/h and are advised to pay attention to byciclists. Be aware: If there is a seperate bike lane, even when it is on the other side of the road (one bike lane often offers both directions), make sure to use it. Otherwise, cars might honk at you. </p>\n<p>If you don't have your bike with you, no problem. There are plenty of bike rental shops in Valencia. Even better: Try Valenbisi (as in: Valencia bicicleta Sí!) with several stations across the city. Park and ride, ride and park - the better hop-on-hop-off service if you ask me. You can reach all the sights the city has to offer, and even the ones a bit further away. </p>\n<h2 id=\"mcetoc_1e28q27en2\">What to see in Valencia?</h2>\n<ol>\n<li>Definitely all the green there is, especially the park in the former Turia river, that went through Valencia: <strong>El Jardín del Turia</strong>. The \"Turia garden\" in the center stretches all the way from the <em>Parque de Cabecera and Bioparc</em> down to the port of Valencia. Grab your bike and enjoy the ride under impressive bridges along orange trees and flowers. It is beautiful and sets the stage for outdoor activities like jogging, playing soccer or dancing. Even with all the bridges crossing the park it is hard to imagine that this park has been a river before. And it is even harder to imagine that after the big flood in 1957, government officials wanted to convert this area into more space for cars and roads. But luckily, <em>valencians </em>demanded to convert it into green space for the city. </li>\n<li>When you ride or stroll along the Jardin del Turia in direction of the port, you won't miss it: la <i>Ciutat de les Arts i les Ciències, </i>the <strong>City of Arts and Sciences. </strong>(Is it just me or does it sound as if it were a place of GOT?) This cultural and architectural area is stunning, even if you don't go inside any of the buildings.<br><img class=\"post__image\" src=\"https://twoandahalfvan.eu/media/posts/11/valencia-art-science.jpg\" alt=\"Valencia\" width=\"2000\" height=\"4000\"></li>\n<li>You really feel a metropolitan and lively but releaxed Valencian atmosphere when hopping through <strong>cafés and shops in Russafa/Ruzafa</strong>. The neighbourhood has a lot of character and is best explored by foot or bike. Just take your time, stroll through the streets and quiet your sweet cravings at places like the <em>Dulce de Leche Boutique</em>, a coffee shop in Carrer del Pintor Gisbert, with some vegan options - despite the name. </li>\n<li>Another barrio to see is <strong>El Carmen</strong> with all its street art, tapas bars and culture. If you are a vegan and in need of coffee you want to visit <em>Almalibre Açaí House Valencia</em> in Carrer de Roteros 16. <br><img class=\"post__image\" src=\"https://twoandahalfvan.eu/media/posts/11/valencia-el-carmen.jpg\" alt=\"Valencia El Carmen\" width=\"1000\" height=\"2000\"></li>\n<li>If you have some spare time and a bike, go further until <strong>Port Sa Platja. </strong>Firstly, you will ride along the beautiful beachside boardwalk. And secondly, Port Sa Platja really feels like little Venice and impresses with colorful buidlings.<br><img class=\"post__image\" src=\"https://twoandahalfvan.eu/media/posts/11/valencia-port.jpg\" alt=\"Valencia\" width=\"2000\" height=\"2000\"></li>\n<li>Last but not least: Enjoy the beach of course :) </li>\n</ol>",
-            "image": "https://twoandahalfvan.eu/media/posts/11/Valencia-Map.JPG",
-            "author": {
-                "name": "Judith"
-            },
-            "tags": [
-                   "Travel Stories",
-                   "Spain"
-            ],
-            "date_published": "2020-02-29T16:35:29+00:00",
-            "date_modified": "2020-03-24T16:54:10+00:00"
+            "date_published": "2020-03-14T16:42:07+01:00",
+            "date_modified": "2020-03-19T19:33:34+01:00"
         }
     ]
 }
