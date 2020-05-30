@@ -1937,6 +1937,7 @@ a.post .feed__item__excerpt {
 }
 .search__btn>svg {
   fill: var(--headings-color);
+  height: 100%;
 }
 .search__btn:hover>svg {
   fill: var(--link-hover-color);
