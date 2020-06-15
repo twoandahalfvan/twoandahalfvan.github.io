@@ -3,12 +3,47 @@
     <title>twoandahalfvan</title>
     <link href="https://twoandahalfvan.eu/feed.xml" rel="self" />
     <link href="https://twoandahalfvan.eu" />
-    <updated>2020-06-10T19:41:37+02:00</updated>
+    <updated>2020-06-15T20:42:22+02:00</updated>
     <author>
         <name>Judith</name>
     </author>
     <id>https://twoandahalfvan.eu</id>
 
+    <entry>
+        <title>Pull Latches</title>
+        <author>
+            <name>Judith</name>
+        </author>
+        <link href="https://twoandahalfvan.eu/pull-latches/"/>
+        <id>https://twoandahalfvan.eu/pull-latches/</id>
+            <category term="Shopping List"/>
+
+        <updated>2020-06-15T20:38:23+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://twoandahalfvan.eu/media/posts/32/pull-latch.jpg" alt="" />
+                    After having tried magnetic child locks we finally settled for pull latches for all our drawer and door locking needs. We think these are great for a couple of reasons.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://twoandahalfvan.eu/media/posts/32/pull-latch.jpg" alt="" />
+                <p>After having tried magnetic child locks we finally settled for pull latches for all our drawer and door locking needs. We think these are great for a couple of reasons.</p>
+<ul>
+<li>drawers are always locked when they are closed. no need to remember to close that push lock before you start your engine</li>
+<li>slim overhang in the front (about 2mm) so that you can have drawers at a 90 degree angle</li>
+<li>affordable</li>
+<li>easy to install</li>
+<li>decent quality, drawers stay shut when propertly installed</li>
+<li>compatible with 30mm aluminium profiles (80/20 in US)</li>
+</ul>
+<p>In combination with these <a href="https://twoandahalfvan.eu/drawer-and-fridge-slides/">drawer and fridge slides</a> they make a perfect solution for soft closing, self retracting and automatically locking drawers.</p>
+<figure class="post__video"><iframe width="560" height="314" src="https://www.youtube.com/embed/CngAHOVf3z8" allowfullscreen="allowfullscreen" ></iframe></figure>
+<p>DACH: <a href="https://amzn.to/2CadQg6">Amazon.de</a></p>
+<p>US: <a href="https://amzn.to/2Y1vRFL" target="_blank" rel="noopener noreferrer">Amazon.com</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Cooking energy efficiently</title>
         <author>
@@ -339,85 +374,6 @@
                 <p>We use standard size boxes (called Euro Boxes) with a side door for easy access when the boxes are stacked. This is both practical and weight saving, as you only need one set of heavy duty slides. We like these boxes as it keeps the garage organised with a minimal amount of effort while giving you a good overview due to the transparent sides.</p>
 <p>DACH: <a rel="nofollow noopener noreferrer" target="_blank" href="https://www.obi.de/aufbewahrungsboxen/obi-eurobox-system-tauro-box-flap-side-40-x-30-x-22-cm-transparent/p/2615755">https://www.obi.de/aufbewahrungsboxen/obi-eurobox-system-tauro-box-flap-side-40-x-30-x-22-cm-transparent/p/2615755</a></p>
 <p>USA: Unfortunately the Euro Box system is not established in the USA. There seems to be a high demand for these boxes, so if you are interested in trading them in bulk and have experience in importing larger quantities, let us know and we will get you the contact details from the manufacturer.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>DIY Lithium battery - Part I</title>
-        <author>
-            <name>Judith</name>
-        </author>
-        <link href="https://twoandahalfvan.eu/diy-lithium-battery/"/>
-        <id>https://twoandahalfvan.eu/diy-lithium-battery/</id>
-            <category term="Van Build Tips"/>
-
-        <updated>2020-03-30T18:55:47+02:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://twoandahalfvan.eu/media/posts/18/IMG_7628.JPG" alt="" />
-                    Building your own 12V Lithium battery can save you a couple of thousand € when compared to ready-to-buy Lithium batteries. However, it can be a daunting task if you have&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://twoandahalfvan.eu/media/posts/18/IMG_7628.JPG" alt="" />
-                <p class="content">Building your own 12V Lithium battery can save you a couple of thousand € when compared to ready-to-buy Lithium batteries. However, it can be a daunting task if you have never done it before. In this post we will describe some basics you need to know before you can build your own 12V Lithium battery.</p>
-<div class="content">
-<p class="msg msg--warning"><span class="warning-header">WARNING</span><br>Building a 12V battery requires knowledge about basic electricity rules and security measures when handling electricity.<br> If you are unsure if you meet these requirements, please buy a ready-to-use battery or consult a qualified electrician.</p>
-<p> </p>
-<iframe width="580" height="326" src="https://3dwarehouse.sketchup.com/embed/16bf9dab-7cc0-42db-a042-a9535bba4d33" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen="allowfullscreen"></iframe>
-<p>Let's start with some basic terminology:</p>
-<ul>
-<li>BMS - Battery Management System</li>
-<li>SoC - State of Charge</li>
-<li>OVP - Over Voltage Protection</li>
-<li>UVP - Under Voltage Protection</li>
-<li>LVP - Low Voltage Protection</li>
-<li>Cells</li>
-<li>Balancers</li>
-<li>Relays</li>
-<li>Hystersis</li>
-</ul>
-<h3 id="mcetoc_1e3rffe680">BMS and SoC</h3>
-<p>Lets start with the <strong>BMS</strong>. The task of a BMS is to protect a battery and to make sure that it operates within the specifications of the battery cell manufacturer. While you can operate some kind of batteries without a BMS, you should never operate a Lithium battery without a BMS. A BMS can also contain some additional features, such as a <strong>State of Charge</strong> detection ("how much juice is left?"), but its core function is to protect the battery from unwanted conditions, such as OVP and UVP and unsupported temperatures.</p>
-<p>Lithium batteries operate within a voltage range. A Lithium battery with a nominal voltage of 12V has an actual voltage of approximately 14,4V when fully charged and about 11V when it is empty. Now, these values are not static or fixed, some people like to charge their Lithium batteries up to 14,6V. This is often a topic of debate, because Lithium batteries tend to have a longer lifespan (measured in charge cycles) when they are not constantly fully charged or fully emptied. In fact, Lithium batteries have a significantly longer life expectation when they are operated around the 50% SoC.</p>
-<h2 id="mcetoc_1e3rffe680">On the matter of voltage</h2>
-<p>Most 12V appliances can operate within the voltage range that a 12V nominal voltage battery provides. However, some 12V appliances may not work correctly when the system voltage is too low or too high, in which case you could add DC-DC converter, which will regulate the system voltage to constant 12V at the expense of a certain efficiency rate (such as 96%).</p>
-<p>When you buy a charger for your battery, you must ensure that it is compatible with your battery in terms of the type of chemistry and system voltage. You should never use a lead acid battery charger on a lithium battery and vice versa, because these chargers have different cutoff voltages and charging methods or algorithms. A charging method or algorithm determines how a battery is charged over time.</p>
-<p>In order to protect the Lithium battery cells from being over charged, we need <strong>Over Voltage Protection</strong> (OVP). Similarly, we need <strong>Under Voltage Protection</strong> (UVP), sometimes also referred to as Low Voltage Protection (LVP) to protect the cells from being discharged beyond it's specifications. If you charge or discharge your battery without OVP and UVP, you can permanently damage the cells, which may cause them to be unusable.</p>
-<h2 id="mcetoc_1e3rffe680">Battery cells - the building blocks of your battery</h2>
-<p>Now, every battery is made up of individual <strong>cells</strong> that are usually wired together in series. In the case of a 12V LiFePo4 battery, each of the four cells that are necessary to create a working battery may have a voltage of 3,6V when the complete battery is fully charged (4 cells * 3,6V = 14,4V). However, in reality, these cells are likely not to have the same voltage. They are more likely to diverge slightly, as their chemical properties may differ slightly and change over time. Here is an example of what your cells voltage might look like if it is 100% charged.</p>
-<table>
-<thead>
-<tr>
-<th>Cell</th>
-<th>Voltage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>3,59</td>
-</tr>
-<tr>
-<td>2</td>
-<td>3,60</td>
-</tr>
-<tr>
-<td>3</td>
-<td>3,61</td>
-</tr>
-<tr>
-<td>4</td>
-<td>3,60</td>
-</tr>
-</tbody>
-</table>
-<p>Because every cell has slightly different chemical characteristics, some cells may be fully charged before other cells. In order to still reach the 14,4V, the charger keeps charging. If the fully charged cell continues to charge, it would be overcharged and thus damaged. It is the task of so called <strong>cell balancers</strong> to make sure that individual cells are charged equally. These balancers are typically electric components that are mounted directly on top of the individual cell terminals. Balancing can be done by actively routing the charging current to the cells that needs it ("active balancing") or by simply converting the superfluous charging current to heat by means of a simple resistor (which may require a heat dissipation device, such as a fan or heat sink).</p>
-<h2 id="mcetoc_1e3rffe680">Relays and Hysteresis</h2>
-<p>Cell balancers may also measure the voltage of the cell they are mounted to and signal an over voltage or under voltage to an upstream device called "<strong>relay</strong>". You can think of a relay as a remotely controlled switch, that switches an electrical connection based on the information it gets. For instance, if one cell balancer singals an under voltage situation to the relay input of a 230V inverter, the inverter may switch it's electrical connection to the battery off. Relays exist in various form factors.</p>
-<p>Last but not least, a <strong>hysteresis</strong> function helps to detect temporary low or high voltage situations. For instance, a coffee machine has a very high electrical demand when it brews, causing a high dip in system voltage for a very short amount of time. In it's simplest form, a hysteresis function requires a certain amount of time to pass before it signals under voltage. Some systems have multiple OVP or LVP functions, allowing for instance a voltage level of 11,2V to exist for 30 seconds, but cutting off directly at 11V.</p>
-</div>
             ]]>
         </content>
     </entry>
